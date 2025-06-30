@@ -571,7 +571,7 @@ AI and machine learning are starting to provide a transformative impact on the f
 
 ## Conclusion
 
-The integration of AI models with traditional OSINT tools represents a powerful force multiplier for combating illicit trade. Success requires a balanced approach that combines cutting-edge technology with robust operational security, ethical considerations, and legal compliance.
+The integration of AI models with traditional OSINT tools represents a powerful force multiplier for combating illicit trade. Success requires a balanced approach which combines cutting-edge technology with robust operational security, ethical considerations, and legal compliance.
 
 ### Key Takeaways:
 
