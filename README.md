@@ -27,7 +27,7 @@ A comprehensive guide to using AI models and platforms for Open Source Intellige
 
 ## Bottom Line Up Front (BLUF)
 
-> **🚨 CRITICAL SECURITY ALERT**: A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations with potential government access. **Stop using ChatGPT for sensitive investigations immediately.**
+> **⚠️ CRITICAL SECURITY ALERT**: A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations with potential government access. **Stop using ChatGPT for sensitive investigations immediately.**
 
 **For Educators Teaching OSINT**: This guide provides a complete framework for AI-powered intelligence gathering while maintaining operational security. Start with free local tools, progress to commercial platforms, and always prioritize student safety through proper OPSEC training.
 
@@ -123,7 +123,7 @@ Web search is globally available to all Claude users on paid plans, with Claude 
 
 ## Part I: AI Language Models for OSINT Research
 
-### 🚨 CRITICAL SECURITY UPDATE: OpenAI Data Retention Court Order
+### ⚠️ CRITICAL SECURITY UPDATE: OpenAI Data Retention Court Order
 
 > **IMMEDIATE ACTION REQUIRED FOR SENSITIVE OSINT WORK**: A federal court order now forces OpenAI to permanently store ALL ChatGPT conversations (including deleted ones) indefinitely, with potential government access. This fundamentally changes the OPSEC profile for ChatGPT in sensitive investigations.
 
@@ -367,7 +367,7 @@ Key security considerations include: managing attribution to avoid revealing ide
 
 ### AI-Specific OPSEC Concerns
 
-#### 🚨 Critical Security Alert: OpenAI Court Order
+#### ⚠️ Critical Security Alert: OpenAI Court Order
 A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations, including deleted conversations and temporary sessions. This is part of the New York Times lawsuit against OpenAI for copyright infringement. **Impact for OSINT researchers:**
 - All conversations stored indefinitely, even if deleted
 - Potential government access to all historical and future conversations
@@ -498,7 +498,7 @@ OSINT commonly collects personal data, which can create compliance risks under G
 - **Security**: High - enterprise privacy protections
 
 #### ⚠️ DEPRECATED: ChatGPT-Based Stack
-Previously recommended but NO LONGER SAFE for sensitive work due to federal court-ordered permanent data retention:
+Previously recommended but NO LONGER SAFE for sensitive work due to US federal court-ordered permanent data retention:
 - ~~ChatGPT Plus ($20)~~ **← AVOID for sensitive investigations**
 - Alternative: Claude Pro ($20) or local models
 
