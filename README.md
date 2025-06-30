@@ -70,7 +70,7 @@ The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029),
 
 This guide provides a comprehensive analysis of AI models and platforms suitable for Open Source Intelligence (OSINT) research, particularly for combating illicit trade. The OSINT market is experiencing rapid growth, driven by increasing cyber threats, AI-enabled automation, and the proliferation of publicly available digital information. Market projections estimate growth from $14.85 billion in 2024 to $49.39 billion by 2029, reflecting a compound annual growth rate (CAGR) of 28.2%.
 
-## Part I-A: Claude's Revolutionary OSINT Capabilities (2024-2025)
+## Part I-A: Claude's New OSINT Capabilities (2024-2025)
 
 Anthropic has transformed Claude into a powerful OSINT research platform with four major capabilities that significantly enhance investigative work:
 
