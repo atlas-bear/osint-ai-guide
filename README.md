@@ -1,8 +1,8 @@
 # AI Models and Platforms for OSINT Research: A Comprehensive Guide for Combating Illicit Trade
 
-A comprehensive guide to AI models and platforms for Open Source Intelligence (OSINT) research, with a focus on combating illicit trade. Covers 50+ tools, security considerations, implementation strategies, and best practices for educators and practitioners.
+A comprehensive guide to using AI models and platforms for Open Source Intelligence (OSINT) research, with a focus on combating illicit trade. Covers 50+ tools, security considerations, implementation strategies, and best practices for educators and practitioners.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-blue)]()
 [![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)]()
 [![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)]()
@@ -634,40 +634,66 @@ We welcome contributions to this guide! Please follow these guidelines:
 
 ## License
 
-This work is licensed under the [MIT License](LICENSE).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+### You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+### Under the following terms:
+- **Attribution** — You must give appropriate credit to Atlas Bear, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests Atlas Bear endorses you or your use.
+
+**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 ### License Summary
 
-- ✅ **Commercial use**: Use for commercial purposes
+- ✅ **Commercial use**: Use for commercial purposes with attribution
 - ✅ **Modification**: Modify and adapt the content
-- ✅ **Distribution**: Share and redistribute
+- ✅ **Distribution**: Share and redistribute freely
 - ✅ **Private use**: Use for personal/private purposes
-- ❗ **Liability**: No warranty or liability
-- ❗ **Attribution**: Must include license and copyright notice
+- ✅ **Patent use**: No patent restrictions
+- ❗ **Attribution required**: Must credit Atlas Bear and indicate changes
+- ❗ **License notice**: Must include license information
+- ❗ **State changes**: Must indicate if modifications were made
+- ✅ **No liability**: Atlas Bear provides no warranty
+- ✅ **No trademark use**: Trademark rights not granted
 
 ### Copyright Notice
 
 ```
-Copyright (c) 2025 [Your Institution/Organization Name]
+Copyright (c) 2025 Atlas Bear
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/ or
+send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You are free to share and adapt this work for any purpose, even commercially, under the
+following terms: Attribution — You must give appropriate credit to Atlas Bear, provide
+a link to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests Atlas Bear endorses you or your use.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK
+OR THE USE OR OTHER DEALINGS IN THE WORK.
 ```
+
+### How to Attribute This Work
+
+When using or adapting this guide, please include attribution such as:
+
+**For Academic Papers:**
+> Atlas Bear. (2025). AI Models and Platforms for OSINT Research: A Comprehensive Guide for Combating Illicit Trade. GitHub. https://github.com/atlas-bear/osint-ai-guide. Licensed under CC BY 4.0.
+
+**For Presentations:**
+> Source: "AI Models and Platforms for OSINT Research" by Atlas Bear (CC BY 4.0)
+
+**For Adaptations:**
+> Based on "AI Models and Platforms for OSINT Research" by Atlas Bear, adapted with modifications. Original work licensed under CC BY 4.0.
 
 ---
 
