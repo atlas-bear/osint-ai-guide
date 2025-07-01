@@ -76,7 +76,7 @@ The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029)�
 
 ## Executive Summary
 
-This guide provides a comprehensive analysis of AI models and platforms suitable for Open Source Intelligence (OSINT) research, particularly for combating illicit trade. The OSINT market is experiencing rapid growth, driven by increasing cyber threats, AI-enabled automation, and the proliferation of publicly available digital information. Market projections estimate growth from $14.85 billion in 2024 to $49.39 billion by 2029, reflecting a compound annual growth rate (CAGR) of 28.2%.
+This guide provides a comprehensive analysis of AI models and platforms suitable for Open Source Intelligence (OSINT) research, particularly for combating illicit trade. The OSINT market is experiencing rapid growth, driven by increasing cyber threats, AI-enabled automation, and the proliferation of publicly available digital information. Market projections estimate growth from $14.85 billion in 2024 to $49.39 billion by 2029, reflecting a compound annual growth rate (CAGR) of 28.2%².
 
 ## Part I-A: Claude's New OSINT Capabilities (2024-2025)
 
@@ -96,7 +96,7 @@ Claude can now conduct deeper investigations across hundreds of internal and ext
 
 ### 2. Model Context Protocol (MCP) Integration
 
-MCP is an open standard that enables secure, two-way connections between Claude and external data sources. As of May 2025, over 5,000 active MCP servers exist, making it a "USB-C for AI."
+MCP is an open standard that enables secure, two-way connections between Claude and external data sources. As of May 2025, over 5,000 active MCP servers exist, making it a "USB-C for AI"¹⁵.
 
 **Available MCP Servers for OSINT:**
 
@@ -1592,3 +1592,5 @@ Special thanks to:
 ¹³ **Berkeley Protocol Framework**: UC Berkeley Human Rights Center. (2022). "Berkeley Protocol on Digital Open Source Investigations." International framework for OPSEC considerations in digital investigations including attribution management and secure environments. [https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf](https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf)
 
 ¹⁴ **BloombergGPT Technical Specifications**: Wu, S., et al. (2023). "BloombergGPT: A Large Language Model for Finance." _arXiv preprint arXiv:2303.17564_. 50-billion parameter model trained on 363 billion tokens of financial data for financial intelligence applications. [https://arxiv.org/abs/2303.17564](https://arxiv.org/abs/2303.17564)
+
+¹⁵ **MCP Server Ecosystem Statistics**: Anthropic. (2025). "Model Context Protocol Ecosystem Growth." Documentation of MCP server adoption with over 5,000 active servers as of May 2025, establishing MCP as "USB-C for AI" connectivity standard. [https://modelcontextprotocol.io/ecosystem](https://modelcontextprotocol.io/ecosystem)
