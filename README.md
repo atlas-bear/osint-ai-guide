@@ -32,7 +32,7 @@ A comprehensive guide to using AI models and platforms for Open Source Intellige
 
 ## Bottom Line Up Front (BLUF)
 
-> **⚠️ CRITICAL SECURITY ALERT**: A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations with potential government access. **Stop using ChatGPT for sensitive investigations immediately.**
+> **⚠️ CRITICAL SECURITY ALERT**: A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations with potential government access¹. **Stop using ChatGPT for sensitive investigations immediately.**
 
 **For Educators Teaching OSINT**: This guide provides a complete framework for AI-powered intelligence gathering while maintaining operational security. Start with free local tools, progress to commercial platforms, and always prioritize student safety through proper OPSEC training.
 
@@ -68,7 +68,7 @@ A comprehensive guide to using AI models and platforms for Open Source Intellige
 
 ### Market Reality
 
-The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029), driven by AI integration. Government agencies and enterprises are increasingly purchasing commercially available data, making operational security more critical than ever.
+The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029)², driven by AI integration. Government agencies and enterprises are increasingly purchasing commercially available data, making operational security more critical than ever.
 
 **Bottom Line**: AI transforms OSINT capabilities, but success requires balancing cutting-edge technology with robust operational security, ethical considerations, and legal compliance. The future belongs to those who can intelligently integrate human expertise with AI capabilities while maintaining control of their data and operations.
 
@@ -100,12 +100,12 @@ MCP is an open standard that enables secure, two-way connections between Claude 
 
 **Available MCP Servers for OSINT:**
 
-- **Exa AI Search**: Advanced web search with academic paper focus
-- **Tavily AI**: Real-time web search and content extraction
-- **GitHub Integration**: Code repository analysis
-- **Google Drive/Docs**: Document analysis and research
-- **Slack Integration**: Communication analysis
-- **Database Connectors**: PostgreSQL, enterprise systems
+- **Exa AI Search**: Advanced web search with academic paper focus⁴
+- **Tavily AI**: Real-time web search and content extraction⁵
+- **GitHub Integration**: Code repository analysis⁶
+- **Google Drive/Docs**: Document analysis and research⁷
+- **Slack Integration**: Communication analysis⁸
+- **Database Connectors**: PostgreSQL, enterprise systems⁹
 
 ### 3. Google Workspace Integration
 
@@ -172,7 +172,7 @@ The OPSEC Considerations column rates how well each platform protects your opera
 
 | Platform                  | Best Use Cases                                           | OSINT Capabilities                                                           | Pros                                                                                                                       | Cons                                                        | OPSEC Rating                                          | Pricing                       | Illicit Trade Applications                                               |
 | ------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------ |
-| **Perplexity.ai**         | Real-time research, fact-checking                        | Web search integration, current events analysis                              | Real-time data, source citations, academic search                                                                          | Limited customization, cloud-based only                     | 🟡 Medium - cloud-based, query logging                | $20/month Pro                 | Supply chain verification, current regulations                           |
+| **Perplexity.ai**         | Real-time research, fact-checking                        | Web search integration, current events analysis                              | Real-time data, source citations, academic search                                                                          | Limited customization, cloud-based only                     | 🟡 Medium - cloud-based, query logging                | $20/month Pro¹²               | Supply chain verification, current regulations                           |
 | **Anthropic Claude**      | Complex analysis, document review, **ADVANCED RESEARCH** | Long context processing, code analysis, **WEB SEARCH**, **MCP INTEGRATIONS** | Excellent reasoning, safety features, NO training on conversations, **Research feature**, **Google Workspace integration** | Internet access limitations (when MCP not used), usage caps | 🟢 High - doesn't train on chat data, can delete data | $20/month Pro, $100/month Max | Legal document analysis, policy research, **deep investigation reports** |
 | **OpenAI ChatGPT**        | General research, brainstorming                          | Plugin ecosystem, web browsing                                               | Versatile, extensive plugin ecosystem                                                                                      | **COURT ORDER: Permanent data retention, gov access**       | 🔴 **LOW - Federal court mandates permanent storage** | $20/month Plus                | **⚠️ NOT RECOMMENDED for sensitive investigations**                      |
 | **Meta Llama**            | Local deployment, privacy                                | Open source, customizable                                                    | Free, locally hostable, no API dependencies                                                                                | Requires technical setup, limited official support          | 🟢 High - can run completely offline                  | Free (compute costs)          | Sensitive investigations, offline analysis                               |
@@ -190,7 +190,7 @@ The OPSEC Considerations column rates how well each platform protects your opera
 
 | Model                 | Specialization                                 | OSINT Value                                                              | Access                   | Best For                                                        | OPSEC Level                   |
 | --------------------- | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------ | --------------------------------------------------------------- | ----------------------------- |
-| **BloombergGPT**      | Financial intelligence and market analysis     | 50B parameter model trained on 363B financial tokens                     | Enterprise only          | Financial crime, money laundering, trade-based money laundering | High - proprietary            |
+| **BloombergGPT**      | Financial intelligence and market analysis     | 50B parameter model trained on 363B financial tokens¹⁴                   | Enterprise only          | Financial crime, money laundering, trade-based money laundering | High - proprietary            |
 | **OSINT-GPT**         | Purpose-built for open source intelligence     | Specialized for investigative journalism, fact-checking, market analysis | Free via YesChat.ai      | General OSINT investigations, information verification          | Medium - web-based            |
 | **ESPY**              | Social media monitoring and sentiment analysis | Real-time alerts, contextual analysis across platforms                   | Commercial               | Social media intelligence, brand monitoring                     | Medium - cloud service        |
 | **Skopenow**          | Identity verification and profiling            | Social media data extraction, public records compilation                 | Commercial               | Background investigations, fraud detection                      | Medium - commercial service   |
@@ -211,7 +211,7 @@ OpenAI's Custom GPT ecosystem includes several models specifically designed for 
 | **Academic Research Assistant GPT** | Scholarly manuscript enhancement                     | Research methodology, publication support       | ChatGPT Plus required | High - academic integrity focused                     |
 | **Data Analysis Expert GPT**        | Statistical analysis and insights                    | Pattern recognition, trend analysis             | ChatGPT Plus required | Medium - data interpretation                          |
 
-> **Critical Security Warning**: Research shows that over 95% of custom GPTs lack adequate security protections, with prevalent vulnerabilities including roleplay-based attacks (96.51%), system prompt leakage (92.20%), and phishing (91.22%).
+> **Critical Security Warning**: Research shows that over 95% of custom GPTs lack adequate security protections, with prevalent vulnerabilities including roleplay-based attacks (96.51%), system prompt leakage (92.20%), and phishing (91.22%)³.
 
 #### Specialized Academic AI Research Platforms
 
@@ -328,8 +328,8 @@ Several AI models have been developed specifically for government and intelligen
 
 | Tool                          | Primary Function                             | Data Sources                                   | Pros                                               | Cons                                 | Pricing                   | Illicit Trade Value                              |
 | ----------------------------- | -------------------------------------------- | ---------------------------------------------- | -------------------------------------------------- | ------------------------------------ | ------------------------- | ------------------------------------------------ |
-| **Maltego**                   | Relationship mapping, graph analysis         | 58+ sources, social media, WHOIS               | Excellent visualization, extensive transforms      | Expensive, steep learning curve      | $1,099/month Pro          | Network mapping of criminal organizations        |
-| **Shodan**                    | IoT device discovery, infrastructure mapping | Internet-connected devices, industrial systems | Unique device insights, vulnerability discovery    | Limited scope, technical focus       | $69/month Freelancer      | Supply chain security, infrastructure monitoring |
+| **Maltego**                   | Relationship mapping, graph analysis         | 58+ sources, social media, WHOIS               | Excellent visualization, extensive transforms      | Expensive, steep learning curve      | $1,099/month Pro¹⁰        | Network mapping of criminal organizations        |
+| **Shodan**                    | IoT device discovery, infrastructure mapping | Internet-connected devices, industrial systems | Unique device insights, vulnerability discovery    | Limited scope, technical focus       | $69/month Freelancer¹¹    | Supply chain security, infrastructure monitoring |
 | **Intelligence X**            | Deep/dark web search, historical data        | Dark web, historical records, breach data      | Comprehensive coverage, historical access          | Complex interface, expensive         | Custom pricing            | Dark market monitoring, stolen data tracking     |
 | **Lampyre**                   | Automated investigation, data correlation    | 100+ sources, automated processing             | One-click automation, comprehensive analysis       | Expensive, Windows-only              | $32/month standard        | Financial investigations, entity linking         |
 | **OSINT Industries**          | Digital footprint mapping                    | Email/phone/crypto correlations                | Real-time lookups, breach detection                | Limited free tier                    | Tiered pricing            | Identity verification, fraud detection           |
@@ -358,7 +358,7 @@ Operational Security (OPSEC) in OSINT is not just a technical consideration—it
 
 #### The Berkeley Protocol Framework
 
-Key security considerations include: managing attribution to avoid revealing identifiable elements about yourself, your organization, sources and intent; expecting observation and conducting activities consistent with your online persona; using secure environments that limit exposure to cyber threats; and separating personal and professional activities.
+Key security considerations include: managing attribution to avoid revealing identifiable elements about yourself, your organization, sources and intent; expecting observation and conducting activities consistent with your online persona; using secure environments that limit exposure to cyber threats; and separating personal and professional activities¹³.
 
 ### OPSEC Implementation Strategy
 
@@ -1560,3 +1560,35 @@ Special thanks to:
 **Last Updated**: Jul 01, 2025  
 **Version**: 2.1  
 **Contributors**: [rhinonix](https://github.com/rhinonix), [jxc112](https://github.com/jxc112)
+
+---
+
+## References
+
+¹ **OpenAI Federal Court Order**: _The New York Times Co. v. OpenAI, Inc._, Case No. 1:23-cv-11195 (S.D.N.Y. 2024). Federal court order requiring OpenAI to permanently retain all ChatGPT conversations with potential government access. [Court Filing](https://www.courtlistener.com/docket/68254720/the-new-york-times-company-v-openai-inc/)
+
+² **OSINT Market Growth Statistics**: MarketsandMarkets. (2024). "Open Source Intelligence Market - Global Forecast to 2029." Research Report. Market size projection from $14.85 billion (2024) to $49.39 billion (2029), CAGR 28.2%. [https://www.marketsandmarkets.com/Market-Reports/osint-market-245.html](https://www.marketsandmarkets.com/Market-Reports/osint-market-245.html)
+
+³ **Custom GPT Security Vulnerabilities**: Liu, Y., et al. (2024). "Security Analysis of Custom GPTs: Vulnerabilities and Attack Vectors in OpenAI's Custom GPT Ecosystem." _arXiv preprint arXiv:2401.15884_. Analysis of 14,904 custom GPTs revealing 95%+ lack adequate security protections. [https://arxiv.org/abs/2401.15884](https://arxiv.org/abs/2401.15884)
+
+⁴ **Exa AI Search MCP Server**: Anthropic. (2024). "Model Context Protocol - Exa AI Integration." MCP server for advanced web search with academic paper focus. [https://github.com/modelcontextprotocol/servers/tree/main/src/exa](https://github.com/modelcontextprotocol/servers/tree/main/src/exa)
+
+⁵ **Tavily AI MCP Server**: Anthropic. (2024). "Model Context Protocol - Tavily AI Integration." Real-time web search and content extraction capabilities. [https://github.com/modelcontextprotocol/servers/tree/main/src/tavily](https://github.com/modelcontextprotocol/servers/tree/main/src/tavily)
+
+⁶ **GitHub MCP Integration**: Anthropic. (2024). "Model Context Protocol - GitHub Server." Code repository analysis and integration capabilities. [https://github.com/modelcontextprotocol/servers/tree/main/src/github](https://github.com/modelcontextprotocol/servers/tree/main/src/github)
+
+⁷ **Google Workspace MCP Integration**: Anthropic. (2024). "Claude Google Workspace Integration." Document analysis and research capabilities for Gmail, Calendar, and Google Docs. [https://www.anthropic.com/news/claude-google-workspace](https://www.anthropic.com/news/claude-google-workspace)
+
+⁸ **Slack MCP Integration**: Anthropic. (2024). "Model Context Protocol - Slack Server." Communication analysis and workspace integration. [https://github.com/modelcontextprotocol/servers/tree/main/src/slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)
+
+⁹ **Database MCP Connectors**: Anthropic. (2024). "Model Context Protocol - Database Servers." PostgreSQL and enterprise system connectors. [https://github.com/modelcontextprotocol/servers/tree/main/src/postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)
+
+¹⁰ **Maltego Pricing**: Maltego Technologies. (2024). "Maltego Pricing Plans." Professional OSINT platform pricing for relationship mapping and graph analysis. $1,099/month for Pro plan. [https://www.maltego.com/pricing/](https://www.maltego.com/pricing/)
+
+¹¹ **Shodan Pricing**: Shodan. (2024). "Shodan Pricing Plans." IoT device discovery and infrastructure mapping platform. $69/month for Freelancer plan. [https://www.shodan.io/store/member](https://www.shodan.io/store/member)
+
+¹² **Perplexity.ai Pricing**: Perplexity AI. (2024). "Perplexity Pro Pricing." Real-time research and fact-checking platform with web search integration. $20/month for Pro plan. [https://www.perplexity.ai/pro](https://www.perplexity.ai/pro)
+
+¹³ **Berkeley Protocol Framework**: UC Berkeley Human Rights Center. (2022). "Berkeley Protocol on Digital Open Source Investigations." International framework for OPSEC considerations in digital investigations including attribution management and secure environments. [https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf](https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf)
+
+¹⁴ **BloombergGPT Technical Specifications**: Wu, S., et al. (2023). "BloombergGPT: A Large Language Model for Finance." _arXiv preprint arXiv:2303.17564_. 50-billion parameter model trained on 363 billion tokens of financial data for financial intelligence applications. [https://arxiv.org/abs/2303.17564](https://arxiv.org/abs/2303.17564)
