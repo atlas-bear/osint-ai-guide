@@ -1,6 +1,17 @@
 # AI Models and Platforms for OSINT Research: A Comprehensive Guide for Combating Illicit Trade
 
-A comprehensive guide to using AI models and platforms for Open Source Intelligence (OSINT) research, with a focus on combating illicit trade. Covers 50+ tools, security considerations, implementation strategies, and best practices for educators and practitioners.
+> Part of the [Atlas Bear Labs](https://github.com/atlas-bear) intelligence methodology
+
+**Intelligence Toolkit Integration:**
+
+- [OSINT Tools](https://github.com/atlas-bear/osint-tools) - Traditional tools that AI can enhance
+- [Recommended Reading](https://github.com/atlas-bear/recommended-reading) - Foundational knowledge for AI-assisted analysis
+- [Supply Chain Tools](https://github.com/atlas-bear/supply-chain-management-tools) - Platforms for automated monitoring
+- [MARA Platform](https://github.com/atlas-bear/mara) - See AI in action for maritime intelligence
+
+---
+
+A practical guide to navigating the integration of AI into OSINT tools and workflows. As artificial intelligence becomes increasingly embedded in intelligence gathering and analysis, this guide provides essential insights for effectively utilizing AI-enhanced capabilities while understanding their limitations and implications for traditional OSINT methodologies.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-blue)]()
