@@ -20,7 +20,7 @@ A practical guide to navigating the integration of AI into OSINT tools and workf
 
 ## Table of Contents
 
-- [Bottom Line Up Front (BLUF)](#bottom-line-up-front-bluf)
+- [BLUF](#bluf)
 - [Executive Summary](#executive-summary)
 - [Part I-A: Claude's Revolutionary OSINT Capabilities](#part-i-a-claudes-revolutionary-osint-capabilities-2024-2025)
 - [Part I: AI Language Models for OSINT Research](#part-i-ai-language-models-for-osint-research)
@@ -41,32 +41,30 @@ A practical guide to navigating the integration of AI into OSINT tools and workf
 
 ---
 
-## Bottom Line Up Front (BLUF)
+## BLUF
 
 > **⚠️ CRITICAL SECURITY ALERT**: A federal court order now requires OpenAI to permanently retain ALL ChatGPT conversations with potential government access¹. **Stop using ChatGPT for sensitive investigations immediately.**
 
+AI transforms OSINT capabilities, but success requires balancing cutting-edge technology with robust operational security, ethical considerations, and legal compliance. The future belongs to those who can intelligently integrate human expertise with AI capabilities while maintaining control of their data and operations.
+
+<!--
 **For Educators Teaching OSINT**: This guide provides a complete framework for AI-powered intelligence gathering while maintaining operational security. Start with free local tools, progress to commercial platforms, and always prioritize student safety through proper OPSEC training.
 
 **For Practitioners**: The OSINT landscape has fundamentally changed. Combine traditional OSINT tools (Maltego, Shodan) with AI models, but deploy locally for sensitive work. The most valuable capability going forward will be the information and knowledge you control directly.
+-->
 
 ### Quick Decision Matrix
 
-**🟢 SAFE FOR SENSITIVE WORK:**
-
-- **Local AI Models**: Ollama + Hugging Face, Mistral (self-hosted)
-- **Privacy-Focused Cloud**: **Claude with MCP (local)**, Google Vertex AI (enterprise)
-- **Traditional OSINT**: Maltego, Shodan, SpiderFoot
-- **Advanced Research**: **Claude Research feature** (with proper OPSEC)
-
-**🟡 USE WITH CAUTION:**
-
-- **Consumer AI**: Perplexity, Gemini, Le Chat (Mistral)
-- **Commercial Platforms**: Most cloud-based OSINT tools
-
-**🔴 AVOID FOR SENSITIVE INVESTIGATIONS:**
-
-- **ChatGPT**: Federal court-ordered permanent data retention
-- **Free AI Services**: Often train on user data
+| Security Level                            | Category              | Tools/Platforms                                            |
+| ----------------------------------------- | --------------------- | ---------------------------------------------------------- |
+| 🟢 **SAFE FOR SENSITIVE WORK**            | Local AI Models       | Ollama + Hugging Face, Mistral (self-hosted)               |
+| 🟢 **SAFE FOR SENSITIVE WORK**            | Privacy-Focused Cloud | **Claude with MCP (local)**, Google Vertex AI (enterprise) |
+| 🟢 **SAFE FOR SENSITIVE WORK**            | Traditional OSINT     | Maltego, Shodan, SpiderFoot                                |
+| 🟢 **SAFE FOR SENSITIVE WORK**            | Advanced Research     | **Claude Research feature** (with proper OPSEC)            |
+| 🟡 **USE WITH CAUTION**                   | Consumer AI           | Perplexity, Gemini, Le Chat (Mistral)                      |
+| 🟡 **USE WITH CAUTION**                   | Commercial Platforms  | Most cloud-based OSINT tools                               |
+| 🔴 **AVOID FOR SENSITIVE INVESTIGATIONS** | ChatGPT               | Federal court-ordered permanent data retention             |
+| 🔴 **AVOID FOR SENSITIVE INVESTIGATIONS** | Free AI Services      | Often train on user data                                   |
 
 ### Key Recommendations
 
@@ -80,8 +78,6 @@ A practical guide to navigating the integration of AI into OSINT tools and workf
 ### Market Reality
 
 The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029)², driven by AI integration. Government agencies and enterprises are increasingly purchasing commercially available data, making operational security more critical than ever.
-
-**Bottom Line**: AI transforms OSINT capabilities, but success requires balancing cutting-edge technology with robust operational security, ethical considerations, and legal compliance. The future belongs to those who can intelligently integrate human expertise with AI capabilities while maintaining control of their data and operations.
 
 ---
 
