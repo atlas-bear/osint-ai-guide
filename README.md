@@ -38,6 +38,11 @@ A practical guide to navigating the integration of AI into OSINT tools and workf
 - [Conclusion](#conclusion)
 - [Contributing](#contributing)
 - [License](#license)
+- [Disclaimer](#disclaimer)
+- [Contact and Support](#contact-and-support)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+- [Atlas Bear Ecosystem](#atlas-bear-ecosystem)
 
 ---
 
@@ -79,11 +84,15 @@ AI transforms OSINT capabilities, but success requires balancing cutting-edge te
 
 The OSINT market is growing from $14.85 billion (2024) to $49.39 billion (2029)², driven by AI integration. Government agencies and enterprises are increasingly purchasing commercially available data, making operational security more critical than ever.
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Executive Summary
 
 This guide provides a comprehensive analysis of AI models and platforms suitable for Open Source Intelligence (OSINT) research, particularly for combating illicit trade. The OSINT market is experiencing rapid growth, driven by increasing cyber threats, AI-enabled automation, and the proliferation of publicly available digital information. Market projections estimate growth from $14.85 billion in 2024 to $49.39 billion by 2029, reflecting a compound annual growth rate (CAGR) of 28.2%².
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ## Part I-A: Claude's New OSINT Capabilities (2024-2025)
 
@@ -137,6 +146,8 @@ Web search is globally available to all Claude users on paid plans, with Claude 
 - Academic literature synthesis on criminal methodologies
 - Real-time monitoring of regulatory changes
 - Email pattern analysis for organizational intelligence
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -327,6 +338,8 @@ Several AI models have been developed specifically for government and intelligen
 
 3. **Custom GPT Security Risks**: Analysis of 14,904 custom GPTs reveals over 95% lack adequate security protections, with prevalent vulnerabilities including roleplay-based attacks, system prompt leakage, and phishing content generation.
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Part II: Specialized OSINT Platforms
@@ -354,6 +367,8 @@ Several AI models have been developed specifically for government and intelligen
 | **arXiv**            | Preprint repository for latest research in AI, computer science, and other fields | Cutting-edge research, early access           | Free      | Latest AI tools, detection methodologies                      |
 | **ResearchGate**     | Social networking for researchers, paper sharing                                  | Expert connections, unpublished research      | Free      | Expert consultation, collaborative research                   |
 | **SSRN**             | Social science research network                                                   | Policy and economic research                  | Free/Paid | Economic impact studies, policy analysis                      |
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -955,6 +970,8 @@ Most modern development tools now integrate AI features that investigators may n
 4. **Audit Trails**: Log all access and modifications
 5. **Backup Security**: Secure backup and recovery procedures
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Part X: Supply Chain & Corporate Intelligence
@@ -1149,6 +1166,8 @@ Corporate intelligence platforms increasingly rely on AI for sophisticated analy
 - **Geographic Mapping**: Link corporate structures to physical locations
 - **Financial Flow Analysis**: Trace money flows through corporate structures
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Part XI: Advanced Investigation Platforms
@@ -1252,6 +1271,8 @@ Advanced investigation platforms represent the cutting edge of OSINT technology,
 - **Social Intelligence**: Brandwatch + Sprinklr
 - **Total**: $50,000-200,000+ per year per organization
 - **OPSEC**: Maximum - enterprise-grade security and compliance
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -1389,6 +1410,8 @@ Financial crime investigation requires specialized tools capable of analyzing co
 5. **Audit Trails**: Maintain comprehensive logs of all activities
 6. **Regular Training**: Keep investigators current on legal requirements
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Conclusion
@@ -1414,6 +1437,8 @@ For academic institutions teaching OSINT for illicit trade combat:
 - **Continuously update** curriculum to reflect evolving threats and capabilities
 
 The future of OSINT lies in the intelligent integration of human expertise with AI capabilities, always grounded in strong operational security and ethical practices.
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -1452,6 +1477,8 @@ We welcome contributions to this guide! Please follow these guidelines:
 - Focus on educational and legitimate use cases
 - Follow ethical guidelines for OSINT research
 - Respect intellectual property rights
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -1523,6 +1550,8 @@ When using or adapting this guide, please include attribution such as:
 
 > Based on "AI Models and Platforms for OSINT Research" by Atlas Bear, adapted with modifications. Original work licensed under CC BY 4.0.
 
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
+
 ---
 
 ## Disclaimer
@@ -1536,6 +1565,8 @@ This guide is provided for educational purposes only. Users are responsible for:
 - Using tools and techniques responsibly
 
 The authors and contributors are not responsible for any misuse of the information contained herein.
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
 
 ---
 
@@ -1566,7 +1597,7 @@ Special thanks to:
 
 Very special thanks to:
 
-The lecturers, tudents, and alumni of [The Summer School on Illicit Trade](https://www.rug.nl/education/summer-winter-schools/illicit-trade/?lang=en) for their commitment to building a global community of scholars and practitioners, dedicated to understanding and combating illicit networks. Your collaborative spirit, rigorous academic approach, and willingness to bridge theory with real-world application continue to inspire and inform the methodologies presented in this guide.
+The lecturers, students, and alumni of [The Summer School on Illicit Trade](https://www.rug.nl/education/summer-winter-schools/illicit-trade/?lang=en) for their commitment to building a global community of scholars and practitioners, dedicated to understanding and combating illicit networks. Your collaborative spirit, rigorous academic approach, and willingness to bridge theory with real-world application continue to inspire and inform the methodologies presented in this guide.
 
 **Last Updated**: Jul 14, 2025  
 **Version**: 2.2  
@@ -1619,3 +1650,5 @@ The lecturers, tudents, and alumni of [The Summer School on Illicit Trade](https
 | [mara](https://github.com/atlas-bear/mara)                                                   | Maritime intelligence platform      | ![Status](https://img.shields.io/github/last-commit/atlas-bear/mara)                          |
 
 **Learn More:** [Atlas Bear Academy](https://www.atlasbear.academy) • **Contact:** [support@atlasbear.co](mailto:support@atlasbear.co)
+
+[↑ Back to top](#ai-models-and-platforms-for-osint-research-a-comprehensive-guide-for-combating-illicit-trade)
