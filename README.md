@@ -1605,3 +1605,17 @@ Special thanks to:
 ¹⁴ **BloombergGPT Technical Specifications**: Wu, S., et al. (2023). "BloombergGPT: A Large Language Model for Finance." _arXiv preprint arXiv:2303.17564_. 50-billion parameter model trained on 363 billion tokens of financial data for financial intelligence applications. [https://arxiv.org/abs/2303.17564](https://arxiv.org/abs/2303.17564)
 
 ¹⁵ **MCP Server Ecosystem Statistics**: Anthropic. (2025). "Model Context Protocol Ecosystem Growth." Documentation of MCP server adoption with over 5,000 active servers as of May 2025, establishing MCP as "USB-C for AI" connectivity standard. [https://modelcontextprotocol.io/ecosystem](https://modelcontextprotocol.io/ecosystem)
+
+---
+
+## Atlas Bear Ecosystem
+
+| Repository                                                                                   | Purpose                             | Status                                                                                        |
+| -------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------- |
+| [osint-tools](https://github.com/atlas-bear/osint-tools)                                     | Maritime & supply chain OSINT tools | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-tools)                   |
+| [recommended-reading](https://github.com/atlas-bear/recommended-reading)                     | Curated intelligence reading list   | ![Status](https://img.shields.io/github/last-commit/atlas-bear/recommended-reading)           |
+| [supply-chain-management-tools](https://github.com/atlas-bear/supply-chain-management-tools) | Open source management solutions    | ![Status](https://img.shields.io/github/last-commit/atlas-bear/supply-chain-management-tools) |
+| [osint-ai-guide](https://github.com/atlas-bear/osint-ai-guide)                               | AI applications in OSINT            | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-ai-guide)                |
+| [mara](https://github.com/atlas-bear/mara)                                                   | Maritime intelligence platform      | ![Status](https://img.shields.io/github/last-commit/atlas-bear/mara)                          |
+
+**Learn More:** [Atlas Bear Academy](https://www.atlasbear.academy) • **Contact:** [support@atlasbear.co](mailto:support@atlasbear.co)
