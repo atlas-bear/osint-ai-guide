@@ -175,7 +175,7 @@ The OPSEC Considerations column rates how well each platform protects your opera
 - **Federal court-ordered permanent data retention**
 - Examples: Free consumer services, ChatGPT (post-court order)
 
-### Comprehensive AI Model Comparison Table
+### AI Model Comparison Table
 
 | Platform                  | Best Use Cases                                           | OSINT Capabilities                                                           | Pros                                                                                                                       | Cons                                                        | OPSEC Rating                                          | Pricing                       | Illicit Trade Applications                                               |
 | ------------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------ |
@@ -1563,9 +1563,10 @@ Special thanks to:
 - Academic institutions advancing ethical OSINT education
 - Law enforcement agencies working to combat illicit trade
 - Open source developers creating accessible tools and platforms
+- Last but not least, a very special thanks to the Lecturers, Students, and Alumni of [The Summer School on Illicit Trade](https://www.rug.nl/education/summer-winter-schools/illicit-trade/?lang=en) for their unwavering commitment to building a global community of scholars and practitioners dedicated to understanding and combating illicit networks. Your collaborative spirit, rigorous academic approach, and willingness to bridge theory with real-world application continue to inspire and inform the methodologies presented in this guide.
 
-**Last Updated**: Jul 01, 2025  
-**Version**: 2.1  
+**Last Updated**: Jul 14, 2025  
+**Version**: 2.2  
 **Contributors**: [rhinonix](https://github.com/rhinonix), [jxc112](https://github.com/jxc112)
 
 ---
