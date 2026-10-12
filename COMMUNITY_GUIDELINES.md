@@ -124,8 +124,8 @@ If you encounter behavior that violates these guidelines:
 
 These guidelines are adapted from best practices in the open source and intelligence communities. They may be updated periodically to reflect community needs and feedback.
 
-**Last Updated**: [Current Date]
-**Version**: 1.0
+**Last Updated**: 2026-10-12
+**Version**: 1.1
 
 ## Related Resources
 
