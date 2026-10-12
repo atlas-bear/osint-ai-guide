@@ -18,7 +18,7 @@ Atlas Bear Labs wrote this guide to share what we have learned about using AI to
 ![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)
 ![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)
 
-**How this guide is maintained.** We review the whole guide twice a year, in spring before the Summer School on Illicit Trade and again in autumn. Every table carries the date we last checked it against vendor pages. Prices and data policies change quickly, so check the vendor page before you buy or before you paste anything sensitive. Corrections are welcome through Issues or a pull request. The [CHANGELOG](CHANGELOG.md) lists what changed in each version.
+**How this guide is maintained.** We review the whole guide twice a year, in spring before the Summer School on Illicit Trade and again in autumn. Every table carries the date we last checked it against vendor pages. Prices and data policies change quickly, so check the vendor page before you buy or before you paste anything sensitive. Corrections are welcome through Issues or a pull request. Each review is published as a GitHub Release with a version number, and the [CHANGELOG](CHANGELOG.md) lists what changed in each version.
 
 ## Table of Contents
 
@@ -924,6 +924,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 You are free to share and adapt this work for any purpose, including commercially, as long as you credit Atlas Bear, link to the license, and say whether you changed anything. You may not suggest that Atlas Bear endorses you or your use, and you may not add legal or technical restrictions that stop others doing what the license allows.
 
+The full legal text is in the [LICENSE](LICENSE) file. Scripts, configuration and workflow files in this repository are software rather than text, and are licensed separately under the MIT License; see [LICENSE-CODE](LICENSE-CODE).
+
 ### Copyright notice
 
 ```text
@@ -942,6 +944,8 @@ OR THE USE OR OTHER DEALINGS IN THE WORK.
 ```
 
 ### How to cite this guide
+
+The repository includes a [CITATION.cff](CITATION.cff) file, which GitHub's "Cite this repository" button reads. Each release is tagged with a version number, so cite the version you used. Release DOIs will be added to the citation file as they are issued.
 
 #### Academic papers
 

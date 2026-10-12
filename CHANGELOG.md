@@ -21,6 +21,7 @@ A full review and rewrite after fifteen months. Every factual claim was checked 
 - Part 10.3, private search over investigation corpora with embeddings, RAG and vector stores, including Voyage AI and local alternatives.
 - Part 11, legal and regulatory changes 2025 to 2026 (EU AI Act and Digital Omnibus, GDPR enforcement, UK Data Act, US state laws and executive order, chat logs as evidence, proposed FRE 707).
 - Appendix A, a table of tools that were renamed, acquired or discontinued since 2022.
+- The full CC BY 4.0 legal text in LICENSE (GitHub previously showed the license as "Other"), an MIT license for scripts and workflows in LICENSE-CODE, and citation metadata in CITATION.cff and .zenodo.json for GitHub's citation button and Zenodo release archiving.
 - Named GitHub footnotes with access dates for every source; "verified" date captions on every table; a maintenance note; this changelog; SECURITY.md; a markdownlint configuration; a monthly link-check workflow.
 
 ### Changed
