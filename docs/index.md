@@ -4,9 +4,8 @@
 
 **Intelligence Toolkit Integration:**
 
-- [OSINT Tools](https://github.com/atlas-bear/osint-tools) - Maritime and supply chain intelligence gathering tools
+- [OSINT Tools](https://github.com/atlas-bear/osint-tools) - Maritime and supply chain OSINT tools and data sources, also as a [website](https://atlas-bear.github.io/osint-tools/)
 - [Recommended Reading](https://github.com/atlas-bear/recommended-reading) - Essential reading on illicit trade and intelligence analysis
-- [Supply Chain Tools](https://github.com/atlas-bear/supply-chain-management-tools) - Open source management solutions for emerging markets
 
 ---
 
