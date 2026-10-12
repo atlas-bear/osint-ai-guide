@@ -1,0 +1,25 @@
+name: Check docs
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-docs.txt
+      - name: README.md is generated from docs/
+        run: python scripts/build_readme.py --check
+      - name: Site builds without warnings
+        run: mkdocs build --strict
+      - name: Markdown lint
+        run: npx --yes markdownlint-cli2 "README.md" "docs/**/*.md" "CHANGELOG.md" "COMMUNITY_GUIDELINES.md" "SECURITY.md"
