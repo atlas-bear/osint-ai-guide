@@ -1,0 +1,20 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+  schedule:
+    - cron: "17 6 1 * *"
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,429 --max-concurrency 8 --timeout 30 README.md CHANGELOG.md COMMUNITY_GUIDELINES.md SECURITY.md
+          fail: true

@@ -1,0 +1,28 @@
+# Hosts that return 403/401 to automated clients. Check these by hand in a browser.
+https://www.perplexity.ai/.*
+https://openai.com/.*
+https://www.courtlistener.com/.*
+https://account.shodan.io/.*
+https://www.shodan.io/store/.*
+https://x.com/.*
+https://help.x.com/.*
+https://docs.x.com/.*
+https://www.linkedin.com/.*
+https://chatgpt.com/.*
+# Additional hosts that returned 403 to automated checks on 2026-10-12 but open normally in a browser.
+https://breakingdefense.com/.*
+https://epieos.com/.*
+https://gijn.org/.*
+https://help.openai.com/.*
+https://onezero.medium.com/.*
+https://www.businesswire.com/.*
+https://www.fastcompany.com/.*
+https://www.geekwire.com/.*
+https://www.globenewswire.com/.*
+https://www.mastercard.com/.*
+https://www.mozillafoundation.org/.*
+https://www.ofcom.org.uk/.*
+https://www.sec.gov/.*
+https://www.spglobal.com/.*
+https://www.whitecase.com/.*
+https://venturebeat.com/.*
