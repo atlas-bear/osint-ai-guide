@@ -1,0 +1,37 @@
+# Citation metadata for this guide. GitHub's "Cite this repository" button reads this file.
+# After the first Zenodo-archived release, add the concept DOI here as:  doi: 10.5281/zenodo.XXXXXXX
+cff-version: 1.2.0
+message: "If you use this guide, please cite it using the metadata below."
+title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
+abstract: "A practical guide to using AI tools in open source intelligence (OSINT) work on illicit trade: which AI assistants and OSINT platforms are worth an investigator's time, where their data goes, how to keep an investigation safe, and how to verify what the tools produce."
+authors:
+  - name: "Atlas Bear Labs"
+    website: "https://atlasbear.co"
+  - family-names: Clontz
+    given-names: Ryan
+    alias: rhinonix
+version: 3.0.0
+date-released: 2026-10-12
+license: CC-BY-4.0
+repository-code: "https://github.com/atlas-bear/osint-ai-guide"
+url: "https://github.com/atlas-bear/osint-ai-guide"
+keywords:
+  - OSINT
+  - open source intelligence
+  - artificial intelligence
+  - illicit trade
+  - operational security
+  - investigation
+preferred-citation:
+  type: report
+  title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
+  authors:
+    - name: "Atlas Bear Labs"
+    - family-names: Clontz
+      given-names: Ryan
+  year: 2026
+  month: 10
+  version: "3.0"
+  url: "https://github.com/atlas-bear/osint-ai-guide"
+  license: CC-BY-4.0
+  notes: "Version 3.0, October 2026. Licensed under CC BY 4.0."
