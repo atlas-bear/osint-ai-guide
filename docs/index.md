@@ -15,7 +15,7 @@ Atlas Bear Labs wrote this guide to share what we have learned about using AI to
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)
 ![Version](https://img.shields.io/badge/Version-3.0-blue)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23314064.svg)](https://doi.org/10.5281/zenodo.23314064)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23314064-blue.svg)](https://doi.org/10.5281/zenodo.23314064)
 ![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)
 ![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)
 

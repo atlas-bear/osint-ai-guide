@@ -13,6 +13,11 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 - Contributing instructions now point to `docs/` and the build script.
 
+### Fixed
+
+- The DOI badge in the README now uses a static image that renders reliably.
+- CITATION.cff renders in GitHub's "Cite this repository" dialog. The organisation is credited as an affiliation in the preferred citation, because GitHub's citation renderer fails on organisation authors in that block.
+
 ## [3.0.0] - 2026-10-12
 
 A full review and rewrite after fifteen months. Every factual claim was checked against a current source, hedged, or removed. Prose was rewritten in plain language.

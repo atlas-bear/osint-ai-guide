@@ -33,9 +33,9 @@ preferred-citation:
   type: report
   title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
   authors:
-    - name: "Atlas Bear Labs"
     - family-names: Clontz
       given-names: Ryan
+      affiliation: "Atlas Bear Labs"
   year: 2026
   month: 10
   version: "3.0"
