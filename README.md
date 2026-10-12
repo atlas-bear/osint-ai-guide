@@ -1053,7 +1053,7 @@ Footnotes are listed in order of first use. Each entry gives the author or organ
 [^shodan-mcp]: BurtTheCoder. "mcp-shodan" (community project, MIT). <https://github.com/BurtTheCoder/mcp-shodan>. Accessed 2026-10-09.
 [^openai-memory]: OpenAI. "Memory and new controls for ChatGPT." <https://openai.com/index/memory-and-new-controls-for-chatgpt/> ; TechCrunch (10 April 2025), <https://techcrunch.com/2025/04/10/openai-updates-chatgpt-to-reference-your-other-chats/>. Accessed 2026-10-09.
 [^claude-memory]: Anthropic (2025). "Bringing memory to Claude." <https://www.anthropic.com/news/memory>. Accessed 2026-10-09.
-[^cohere-command-a-plus]: Associated Press via The Standard-Journal (20 May 2026). "Cohere releases Command A+, an open-source enterprise AI model." <https://www.standard-journal.com/ap/business/cohere-releases-command-a-an-open-source-enterprise-ai-model-built-for-sovereign-critical-infrastructure/article_eb7ed3ac-11d7-5378-bb51-b71ec4c5d8b0.html>. Accessed 2026-10-09.
+[^cohere-command-a-plus]: Cohere (20 May 2026). "Introducing Command A+: Making sovereign agentic capabilities available to all." <https://cohere.com/blog/command-a-plus>. Weights on Hugging Face under Apache 2.0, 218B total and 25B active parameters. Accessed 2026-10-12.
 [^bloomberggpt]: Wu, S., Irsoy, O., Lu, S., et al. (2023). "BloombergGPT: A Large Language Model for Finance." arXiv:2303.17564. <https://arxiv.org/abs/2303.17564>. Accessed 2026-10-09.
 [^askb]: Markets Media (2026). "Bloomberg introduces agentic AI to the Terminal." <https://www.marketsmedia.com/bloomberg-introduces-agentic-ai-to-the-terminal/>. Accessed 2026-10-09.
 
