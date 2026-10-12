@@ -28,3 +28,5 @@ https://www.whitecase.com/.*
 https://venturebeat.com/.*
 https://www.mordorintelligence.com/.*
 https://www.taylorwessing.com/.*
+# The site URL returns 404 until GitHub Pages is enabled for this repository. Remove this line once the site is live.
+https://atlas-bear.github.io/osint-ai-guide/
