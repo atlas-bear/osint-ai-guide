@@ -15,6 +15,7 @@ Atlas Bear Labs wrote this guide to share what we have learned about using AI to
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)
 ![Version](https://img.shields.io/badge/Version-3.0-blue)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23314064.svg)](https://doi.org/10.5281/zenodo.23314064)
 ![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)
 ![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)
 
@@ -945,11 +946,11 @@ OR THE USE OR OTHER DEALINGS IN THE WORK.
 
 ### How to cite this guide
 
-The repository includes a [CITATION.cff](CITATION.cff) file, which GitHub's "Cite this repository" button reads. Each release is tagged with a version number, so cite the version you used. Release DOIs will be added to the citation file as they are issued.
+The repository includes a [CITATION.cff](CITATION.cff) file, which GitHub's "Cite this repository" button reads. Every release is archived on Zenodo. The DOI for all versions is [10.5281/zenodo.23314064](https://doi.org/10.5281/zenodo.23314064); the DOI for version 3.0.0 is [10.5281/zenodo.23314068](https://doi.org/10.5281/zenodo.23314068). Cite the version you used.
 
 #### Academic papers
 
-> Atlas Bear. (2026). AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence (Version 3.0). GitHub. <https://github.com/atlas-bear/osint-ai-guide>. Licensed under CC BY 4.0.
+> Atlas Bear Labs and Clontz, R. (2026). AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence (Version 3.0.0). Zenodo. <https://doi.org/10.5281/zenodo.23314068>. Licensed under CC BY 4.0.
 
 #### Presentations
 
