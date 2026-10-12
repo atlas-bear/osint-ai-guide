@@ -1,5 +1,4 @@
 # Citation metadata for this guide. GitHub's "Cite this repository" button reads this file.
-# After the first Zenodo-archived release, add the concept DOI here as:  doi: 10.5281/zenodo.XXXXXXX
 cff-version: 1.2.0
 message: "If you use this guide, please cite it using the metadata below."
 title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
@@ -13,6 +12,14 @@ authors:
 version: 3.0.0
 date-released: 2026-10-12
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23314064
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23314064
+    description: "Concept DOI for all versions of the guide"
+  - type: doi
+    value: 10.5281/zenodo.23314068
+    description: "DOI for version 3.0.0 (October 2026)"
 repository-code: "https://github.com/atlas-bear/osint-ai-guide"
 url: "https://github.com/atlas-bear/osint-ai-guide"
 keywords:
@@ -32,6 +39,7 @@ preferred-citation:
   year: 2026
   month: 10
   version: "3.0"
+  doi: 10.5281/zenodo.23314068
   url: "https://github.com/atlas-bear/osint-ai-guide"
   license: CC-BY-4.0
   notes: "Version 3.0, October 2026. Licensed under CC BY 4.0."

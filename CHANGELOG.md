@@ -2,6 +2,12 @@
 
 All notable changes to this guide are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Added
+
+- Zenodo DOIs in CITATION.cff and the README citation block: 10.5281/zenodo.23314064 for all versions and 10.5281/zenodo.23314068 for v3.0.0.
+
 ## [3.0.0] - 2026-10-12
 
 A full review and rewrite after fifteen months. Every factual claim was checked against a current source, hedged, or removed. Prose was rewritten in plain language.
