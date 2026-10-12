@@ -35,7 +35,6 @@ A full review and rewrite after fifteen months. Every factual claim was checked 
 - Replaced all budget totals with component tables of verified prices.
 - Removed the private MARA repository from the ecosystem table (the link returned 404 for readers).
 - Fixed the duplicate "Academic and Research Platforms" table, the broken Part I-A anchor, the placeholder contacts, the mismatched title in the citation examples, and the inconsistent "last updated" dates.
-- Rewrote all prose in plain language without em dashes, marketing vocabulary, or bold-on-everything, in Atlas Bear's house voice.
 
 ### Removed
 
