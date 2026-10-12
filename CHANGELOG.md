@@ -6,7 +6,12 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 ### Added
 
+- A website version of the guide at <https://atlas-bear.github.io/osint-ai-guide/>, built with MkDocs Material from the files in `docs/`, which are now the source of truth. `scripts/build_readme.py` regenerates README.md from the same files, and a pull request check fails if the two drift apart.
 - Zenodo DOIs in CITATION.cff and the README citation block: 10.5281/zenodo.23314064 for all versions and 10.5281/zenodo.23314068 for v3.0.0.
+
+### Changed
+
+- Contributing instructions now point to `docs/` and the build script.
 
 ## [3.0.0] - 2026-10-12
 

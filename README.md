@@ -19,6 +19,8 @@ Atlas Bear Labs wrote this guide to share what we have learned about using AI to
 ![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)
 ![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)
 
+**Read it as a website.** This guide is also published at <https://atlas-bear.github.io/osint-ai-guide/>, with search and one page per Part. The README and the website are built from the same files.
+
 **How this guide is maintained.** We review the whole guide twice a year, in spring before the Summer School on Illicit Trade and again in autumn. Every table carries the date we last checked it against vendor pages. Prices and data policies change quickly, so check the vendor page before you buy or before you paste anything sensitive. Corrections are welcome through Issues or a pull request. Each review is published as a GitHub Release with a version number, and the [CHANGELOG](CHANGELOG.md) lists what changed in each version.
 
 ## Table of Contents
@@ -894,8 +896,8 @@ We welcome corrections and additions.
 ### How to contribute
 
 1. Fork the repository and create a branch.
-2. Make your change. For a new tool, include what it does, who owns it, what it costs, where the data goes, and a source with a date.
-3. Check that links work and that the Markdown renders.
+2. Edit the files in the `docs/` folder, not README.md. README.md is generated from them. For a new tool, include what it does, who owns it, what it costs, where the data goes, and a source with a date. Footnotes are defined once, in `docs/references.md`.
+3. Run `python scripts/build_readme.py` to regenerate README.md, and `mkdocs build --strict` if you have MkDocs installed. The pull request checks run both.
 4. Open a pull request with a short description.
 
 ### Rules we hold ourselves to
@@ -968,6 +970,8 @@ The repository includes a [CITATION.cff](CITATION.cff) file, which GitHub's "Cit
 
 This guide is for education. You are responsible for complying with the laws that apply to you, for respecting privacy and ethical limits, for your own operational security, and for how you use these tools. We have checked the facts here as carefully as we can on the dates shown, and we will correct mistakes when they are reported, but prices, policies and products change without notice. The authors and contributors are not responsible for any misuse of this information.
 
+[↑ Back to top](#ai-enhanced-osint-a-practical-guide-for-illicit-trade-intelligence)
+
 ---
 
 ## Contact and Support
@@ -976,6 +980,8 @@ This guide is for education. You are responsible for complying with the laws tha
 - **Questions:** use GitHub Discussions.
 - **Security concerns:** use GitHub's private vulnerability reporting on this repository (Security tab), or email [support@atlasbear.co](mailto:support@atlasbear.co). See [SECURITY.md](SECURITY.md).
 - **Academic partnerships:** email [support@atlasbear.co](mailto:support@atlasbear.co).
+
+[↑ Back to top](#ai-enhanced-osint-a-practical-guide-for-illicit-trade-intelligence)
 
 ---
 
