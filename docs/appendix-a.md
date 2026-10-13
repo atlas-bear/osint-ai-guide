@@ -1,4 +1,6 @@
-## Appendix A: Renamed, acquired or discontinued (2022 to 2026)
+---
+title: "Appendix A: Renamed, acquired or discontinued (2022 to 2026)"
+---
 
 Earlier editions of this guide named all of these. Use this table when a colleague or a course handout still uses the old name.
 

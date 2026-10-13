@@ -1,10 +1,12 @@
-## Part 12: For educators: curriculum, lab setup and budgets
+---
+title: "Part 12: For educators: curriculum, lab setup and budgets"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
 This guide grew out of teaching. The Summer School on Illicit Trade at the University of Groningen brings together students and practitioners every year. The questions they ask shaped most of what is here.
 
-### Course structure
+## Course structure
 
 1. **OPSEC first.** Attribution, personas, isolation and the data terms of every tool, before any tool is used.
 2. **Free and local tools.** Students build a working stack from [Part 3](03-local-models.md#part-3-local-and-open-weight-models) and [Part 9.2](09-platforms-and-data.md#92-free-structured-data-for-illicit-trade-investigation) before they touch a commercial platform.
@@ -13,14 +15,14 @@ This guide grew out of teaching. The Summer School on Illicit Trade at the Unive
 5. **Practical investigations.** Simulated cases built on open data: a vessel, a shell company, a sanctioned trader.
 6. **Advanced topics.** Dark web collection, blockchain tracing, and commercial platforms, for students who have passed the earlier stages.
 
-### Lab setup
+## Lab setup
 
 - An isolated network segment and virtual machines for each student. Kali Linux with OSINT tooling is a common base; so is a plain Ubuntu image with Python.
 - Ollama or LM Studio on lab machines with one 20 to 30 billion parameter model downloaded in advance. Confirm the setup answers with the network unplugged.
 - No student use of consumer AI accounts with model training on. Where you need a cloud assistant, use an institutional Team or Enterprise plan, or the education plans the vendors offer.
 - Logging of lab activity, agreed with students in advance, so that mistakes become lessons rather than incidents.
 
-### Budgets
+## Budgets
 
 Earlier editions gave monthly totals for "professional" and "enterprise" stacks. Most of those figures were estimates and several of the prices were wrong, so we have replaced them with verified components. Add up what you need.
 

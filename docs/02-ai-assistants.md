@@ -1,10 +1,12 @@
-## Part 2: AI assistants for OSINT research
+---
+title: "Part 2: AI assistants for OSINT research"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
 Every major AI assistant now offers the same core research features. Each has a deep research mode that runs many searches and writes a cited report. Each has connectors to your files and email, an agent mode that can browse and act, and memory across chats. The differences that matter for OSINT are in the data terms, not the feature list. This Part compares the seven assistants we see most often in investigative work. We have tried to describe each vendor's terms as they stand in October 2026. Policies change often. Read the vendor's own page before you rely on any row.
 
-### 2.1 Comparison table
+## 2.1 Comparison table
 
 Rubric strings are explained in [Part 1](01-opsec-rubric.md#part-1-reading-the-opsec-rubric). Where two strings appear, the first is for consumer plans and the second for enterprise or API access.
 
@@ -22,7 +24,7 @@ Rubric strings are explained in [Part 1](01-opsec-rubric.md#part-1-reading-the-o
 
 We dropped three things from this table since the last edition. OSINT-GPT was a third-party wrapper on YesChat.ai that added a data hop with no published terms. The "custom GPT" listings are covered by the warning in [Part 4](04-agent-security.md#part-4-ai-agent-security-for-analysts). The long Mistral product list now lives in one row above and in [Part 3](03-local-models.md#part-3-local-and-open-weight-models).
 
-### 2.2 Deep research across vendors
+## 2.2 Deep research across vendors
 
 Deep research modes run dozens of searches, read the pages, and write a report with citations. They are the single most useful AI feature for background work on a company, a vessel, a port or a trafficking route. They are also where hallucinated citations show up most often, so every link in a deep research report needs to be opened and read. [Part 6](06-tradecraft.md#part-6-analytic-tradecraft-hallucination-verification-and-provenance) explains how we check them.
 
@@ -38,7 +40,7 @@ Deep research modes run dozens of searches, read the pages, and write a report w
 
 *Launch dates from vendor announcements and contemporaneous reporting.[^deep-research-dates] Verified 2026-10-09.*
 
-### 2.3 Connectors, MCP and agent modes
+## 2.3 Connectors, MCP and agent modes
 
 The Model Context Protocol (MCP) is the open standard that lets an assistant call outside tools and data sources. Anthropic published it in late 2024, OpenAI adopted it in March 2025, and Microsoft followed at Build in May 2025.[^mcp-openai] In December 2025 Anthropic donated MCP to the Linux Foundation's new Agentic AI Foundation, citing more than 10,000 public servers.[^mcp-aaif] The official registry listed roughly 10,000 to 19,000 entries at different points in 2026, depending on how you count.[^mcp-registry]
 
@@ -48,7 +50,7 @@ Three things to know before you connect anything:
 - **For OSINT data, prefer servers run by the data owner.** OpenSanctions ships an MCP server with its open-source client.[^opensanctions-oss] The popular Shodan MCP server is a community project under an MIT licence, not a Shodan product.[^shodan-mcp]
 - **A connector is a new way for data to leave.** Each MCP server you add can read what the model reads and may send it elsewhere. [Part 4](04-agent-security.md#part-4-ai-agent-security-for-analysts) covers the attacks we have seen in the wild and the rules we follow.
 
-### 2.4 Memory and temporary modes
+## 2.4 Memory and temporary modes
 
 Memory lets an assistant carry facts between chats. For OSINT that is a liability. A target's name from one case can surface in a chat about another. Memory also builds a profile of you, the analyst, that a breach or a discovery order could expose. And memory can be planted: a web page an agent reads can try to write into it.
 
@@ -61,7 +63,7 @@ Memory lets an assistant carry facts between chats. For OSINT that is a liabilit
 
 Our rule: case work happens in an incognito or temporary chat, or in a separate account with memory off, or on a local model.
 
-### 2.5 Enterprise and no-training routes
+## 2.5 Enterprise and no-training routes
 
 The question we hear most often is "can I use a frontier model safely at all?" The answer is yes, if you buy it under business terms. Four routes:
 
@@ -72,7 +74,7 @@ The question we hear most often is "can I use a frontier model safely at all?" T
 
 Cohere sells to this market too. Its Command A+ model was released as open weights under Apache 2.0 in May 2026, and its North product is a workspace for private deployments.[^cohere-command-a-plus]
 
-### 2.6 Research and academic tools
+## 2.6 Research and academic tools
 
 | Tool | What it does | Cost | OSINT use |
 | --- | --- | --- | --- |
@@ -88,7 +90,7 @@ Cohere sells to this market too. Its Command A+ model was released as open weigh
 
 BloombergGPT (2023) was the first large language model trained on financial text and remains a useful reference paper on domain-specific models.[^bloomberggpt] Bloomberg's 2026 Terminal products use a mix of commercial and open-weight models.[^askb]
 
-### A worked example with one vendor
+## A worked example with one vendor
 
 This example uses Claude Research with MCP connectors. ChatGPT Deep Research with connectors or Gemini Deep Research with Google Workspace work the same way.
 

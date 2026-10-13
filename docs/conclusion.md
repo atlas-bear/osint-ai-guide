@@ -1,4 +1,6 @@
-## Conclusion
+---
+title: "Conclusion"
+---
 
 AI tools have made OSINT faster and, in some ways, easier. They have not made it safer. The vendors' data terms changed under our feet between the first edition of this guide and this one. A court ordered one of them to keep everything its users had deleted. Web pages learned to talk to our tools. Models still invent what they do not know.
 

@@ -1,4 +1,6 @@
-## Part 8: Adversarial use of AI by illicit networks
+---
+title: "Part 8: Adversarial use of AI by illicit networks"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 

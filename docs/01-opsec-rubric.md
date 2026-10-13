@@ -1,4 +1,6 @@
-## Part 1: Reading the OPSEC rubric
+---
+title: "Part 1: Reading the OPSEC rubric"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 

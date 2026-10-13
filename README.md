@@ -896,7 +896,7 @@ We welcome corrections and additions.
 
 1. Fork the repository and create a branch.
 2. Edit the files in the `docs/` folder, not README.md. README.md is generated from them. For a new tool, include what it does, who owns it, what it costs, where the data goes, and a source with a date. Footnotes are defined once, in `docs/references.md`.
-3. Run `python scripts/build_readme.py` to regenerate README.md, and `mkdocs build --strict` if you have MkDocs installed. The pull request checks run both.
+3. Run `python scripts/build_readme.py` to regenerate README.md and the references page, and `quarto render docs` if you have Quarto installed. The pull request checks run both.
 4. Open a pull request with a short description.
 
 ### Rules we hold ourselves to
@@ -1067,7 +1067,6 @@ Footnotes are listed in order of first use. Each entry gives the author or organ
 [^cohere-command-a-plus]: Cohere (20 May 2026). "Introducing Command A+: Making sovereign agentic capabilities available to all." <https://cohere.com/blog/command-a-plus>. Weights on Hugging Face under Apache 2.0, 218B total and 25B active parameters. Accessed 2026-10-12.
 [^bloomberggpt]: Wu, S., Irsoy, O., Lu, S., et al. (2023). "BloombergGPT: A Large Language Model for Finance." arXiv:2303.17564. <https://arxiv.org/abs/2303.17564>. Accessed 2026-10-09.
 [^askb]: Markets Media (2026). "Bloomberg introduces agentic AI to the Terminal." <https://www.marketsmedia.com/bloomberg-introduces-agentic-ai-to-the-terminal/>. Accessed 2026-10-09.
-
 [^meta-avocado]: The Decoder (December 2025). "Meta is reportedly ditching open Llama models for Avocado." <https://the-decoder.com/meta-is-reportedly-ditching-open-llama-models-for-avocado-a-closed-model-built-for-direct-sales/>. Accessed 2026-10-09.
 [^meta-glimmer]: CNBC (10 August 2026). "Meta releases Muse Glimmer open-weight AI model." <https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html>. Accessed 2026-10-09.
 [^llama4-eu]: The Decoder (April 2025). "Meta releases first multimodal Llama 4 models, leaves EU out in the cold." <https://the-decoder.com/meta-releases-first-multimodal-llama-4-models-leaves-eu-out-in-the-cold/>. Accessed 2026-10-09.
@@ -1109,7 +1108,6 @@ Footnotes are listed in order of first use. Each entry gives the author or organ
 [^anthropic-threat-sep26]: Anthropic (September 2026). "Threat intelligence report: September 2026." <https://www.anthropic.com/threat-intelligence-report-september-2026>. Accessed 2026-10-09.
 [^openai-malicious]: OpenAI. "Disrupting malicious uses of AI" (report series). <https://openai.com/index/disrupting-malicious-ai-uses>. Accessed 2026-10-09.
 [^gtig]: Google Threat Intelligence Group (5 November 2025). "GTIG AI threat tracker: advances in threat actor usage of AI tools." <https://blog.google/technology/safety-security/gtig-report-ai-malware/>. Accessed 2026-10-09.
-
 [^maltego-pricing]: Maltego. "Pricing." <https://www.maltego.com/pricing/>. Accessed 2026-10-09.
 [^maltego-hunchly]: Maltego (19 May 2025). "Maltego welcomes Hunchly." <https://www.maltego.com/blog/maltego-welcomes-hunchly-to-expand-osint-capabilities/>. Accessed 2026-10-09.
 [^maltego-ai]: Maltego Docs. "What is the AI Assistant?" <https://docs.maltego.com/en/support/solutions/articles/15000061164-what-is-the-ai-assistant->. Accessed 2026-10-09.
