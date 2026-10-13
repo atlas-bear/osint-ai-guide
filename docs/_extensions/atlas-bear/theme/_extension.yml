@@ -1,0 +1,21 @@
+title: Atlas Bear theme
+author: Atlas Bear Labs
+version: 1.0.0
+quarto-required: ">=1.10.0"
+contributes:
+  formats:
+    html:
+      theme:
+        light: [flatly, theme.scss]
+        dark: [darkly, theme-dark.scss]
+      format-resources:
+        - repo-stats.js
+      grid:
+        sidebar-width: 270px
+        body-width: 820px
+        margin-width: 230px
+        gutter-width: 1.5rem
+      toc: true
+      link-external-icon: false
+      link-external-newwindow: false
+      smooth-scroll: true
