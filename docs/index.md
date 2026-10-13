@@ -1,6 +1,6 @@
 # AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence
 
-> Part of the [Atlas Bear Labs](https://github.com/atlas-bear) intelligence methodology
+> Part of the [Atlas Bear Library](https://atlas-bear.github.io/), where Atlas Bear Labs gathers its public guides, lists and tools
 
 **Intelligence Toolkit Integration:**
 

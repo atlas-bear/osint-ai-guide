@@ -54,6 +54,16 @@ nav:
   - "Appendix A: Renamed or discontinued": appendix-a.md
   - About, licence and contact: about.md
   - References: references.md
+  - Atlas Bear Library: https://atlas-bear.github.io/
+
+extra:
+  social:
+    - icon: material/home
+      link: https://atlas-bear.github.io/
+      name: Atlas Bear Library
+    - icon: material/github
+      link: https://github.com/atlas-bear
+      name: Atlas Bear Labs on GitHub
 
 markdown_extensions:
   - tables

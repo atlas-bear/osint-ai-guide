@@ -98,4 +98,6 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 
 The MARA maritime intelligence platform is in private development and is not yet public.
 
+Everything above is gathered at the [Atlas Bear Library](https://atlas-bear.github.io/).
+
 **Learn more:** [Atlas Bear Academy](https://www.atlasbear.academy) • **Contact:** [support@atlasbear.co](mailto:support@atlasbear.co)
