@@ -9,7 +9,7 @@ project:
 website:
   title: "AI-Enhanced OSINT"
   description: "A practical guide for illicit trade intelligence, by AB//LABS."
-  site-url: https://atlas-bear.github.io/osint-ai-guide/
+  site-url: https://library.ab-labs.io/osint-ai-guide/
   repo-url: https://github.com/atlas-bear/osint-ai-guide
   repo-subdir: docs
   repo-actions: [edit, issue]
@@ -27,7 +27,7 @@ website:
         href: references.md
     right:
       - text: Library
-        href: https://atlas-bear.github.io/
+        href: https://library.ab-labs.io/
   sidebar:
     style: docked
     collapse-level: 2
@@ -60,7 +60,7 @@ website:
     left: "Copyright 2025-2026 AB//LABS (formerly Atlas|Bear Labs). Text licensed CC BY 4.0; code MIT."
     right:
       - text: Library
-        href: https://atlas-bear.github.io/
+        href: https://library.ab-labs.io/
       - text: Cite (DOI)
         href: https://doi.org/10.5281/zenodo.23314064
       - text: Contact

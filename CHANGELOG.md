@@ -6,11 +6,12 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 ### Added
 
-- A website version of the guide at <https://atlas-bear.github.io/osint-ai-guide/>, built with MkDocs Material from the files in `docs/`, which are now the source of truth. `scripts/build_readme.py` regenerates README.md from the same files, and a pull request check fails if the two drift apart.
+- A website version of the guide at <https://library.ab-labs.io/osint-ai-guide/>, built with MkDocs Material from the files in `docs/`, which are now the source of truth. `scripts/build_readme.py` regenerates README.md from the same files, and a pull request check fails if the two drift apart.
 - Zenodo DOIs in CITATION.cff and the README citation block: 10.5281/zenodo.23314064 for all versions and 10.5281/zenodo.23314068 for v3.0.0.
 
 ### Changed
 
+- The website moved to <https://library.ab-labs.io/osint-ai-guide/>. The old atlas-bear.github.io address redirects there, so existing links keep working.
 - Ownership wording, contacts and names now reflect AB//LABS, which began as Atlas|Bear Labs and spun off from Atlas|Bear; the connection is explained in About. Copyright lines read AB//LABS (formerly Atlas|Bear Labs); contact is `support@ab-labs.io`.
 - The website is now built with Quarto instead of MkDocs Material, in the shared theme. The pages in `docs/` carry a front-matter title instead of a top heading, the footnote definitions live in `docs/_references.md` and are attached to each page by a small filter at build time, and headings keep their GitHub ids so every existing link still works. The README is unchanged.
 - Contributing instructions now point to `docs/` and the build script.
