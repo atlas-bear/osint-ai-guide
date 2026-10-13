@@ -28,3 +28,5 @@ https://www.whitecase.com/.*
 https://venturebeat.com/.*
 https://www.mordorintelligence.com/.*
 https://www.taylorwessing.com/.*
+# Bitsight: intermittent 503 from its bot protection, even with a browser user agent (checked 2026-10-13)
+https://www.bitsight.com/
