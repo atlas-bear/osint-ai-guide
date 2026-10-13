@@ -1,6 +1,6 @@
 # AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence
 
-> Part of the [Atlas Bear Labs](https://github.com/atlas-bear) intelligence methodology
+> Part of the [Atlas Bear Library](https://atlas-bear.github.io/), where Atlas Bear Labs gathers its public guides, lists and tools
 
 **Intelligence Toolkit Integration:**
 
@@ -1007,6 +1007,8 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 | [osint-ai-guide](https://github.com/atlas-bear/osint-ai-guide) | AI applications in OSINT (this guide) | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-ai-guide) |
 
 The MARA maritime intelligence platform is in private development and is not yet public.
+
+Everything above is gathered at the [Atlas Bear Library](https://atlas-bear.github.io/).
 
 **Learn more:** [Atlas Bear Academy](https://www.atlasbear.academy) • **Contact:** [support@atlasbear.co](mailto:support@atlasbear.co)
 
