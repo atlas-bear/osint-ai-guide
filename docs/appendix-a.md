@@ -1,5 +1,6 @@
 ---
 title: "Appendix A: Renamed, acquired or discontinued (2022 to 2026)"
+description: "Tools renamed, acquired or discontinued between 2022 and 2026, for when a colleague or a handout still uses the old name."
 ---
 
 Earlier editions of this guide named all of these. Use this table when a colleague or a course handout still uses the old name.

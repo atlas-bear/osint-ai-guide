@@ -1,5 +1,6 @@
 ---
 title: "Part 13: An investigation workflow for illicit trade"
+description: "A vendor-neutral investigation workflow for illicit trade, phase by phase, with your own tools swapped in where you have them."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

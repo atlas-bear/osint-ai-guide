@@ -1,5 +1,6 @@
 ---
 title: "About, licence and contact"
+description: "Licence, how to cite the guide, disclaimer, contact and the rest of our repositories."
 readme-heading: false
 ---
 

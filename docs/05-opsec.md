@@ -1,5 +1,6 @@
 ---
 title: "Part 5: OPSEC for AI-assisted OSINT"
+description: "Operational security for AI-assisted OSINT: the Berkeley Protocol principles, the new ways AI tools leak who you are and what you want, and the habits that stop it."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

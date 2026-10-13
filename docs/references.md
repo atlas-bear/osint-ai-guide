@@ -1,5 +1,6 @@
 ---
 title: "References"
+description: "Every footnote in the guide, in order of first use, with the date we last opened each link."
 ---
 
 <!-- GENERATED FILE. Do not edit by hand. Edit docs/_references.md and run: python scripts/build_readme.py -->

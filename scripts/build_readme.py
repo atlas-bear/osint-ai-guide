@@ -131,7 +131,7 @@ def build():
             indent = "" if m.group(1) == "##" else "  "
             toc.append(f"{indent}- [{m.group(2).strip()}](#{slug(m.group(2))})")
     text = text.replace("<!-- TOC -->\n<!-- /TOC -->", "<!-- TOC -->\n" + "\n".join(toc) + "\n<!-- /TOC -->", 1)
-    page = ('---\ntitle: "References"\n---\n\n' + PAGE_HEADER + intro + "\n\n"
+    page = ('---\ntitle: "References"\ndescription: "Every footnote in the guide, in order of first use, with the date we last opened each link."\n---\n\n' + PAGE_HEADER + intro + "\n\n"
             + "\n".join(f'1. <a id="ref-{k}"></a>{body}' for k, _, body in defs) + "\n")
     return text, page
 

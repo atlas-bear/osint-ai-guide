@@ -1,5 +1,6 @@
 ---
 title: "Part 1: Reading the OPSEC rubric"
+description: "The four-letter rubric this guide uses to rate every tool: four separate questions instead of one OPSEC score, and how to read a rated row."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

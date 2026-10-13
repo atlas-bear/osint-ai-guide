@@ -1,5 +1,6 @@
 ---
 title: "Part 2: AI assistants for OSINT research"
+description: "The seven AI assistants we see most in investigative work, compared on the data terms that matter for OSINT rather than the feature list."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

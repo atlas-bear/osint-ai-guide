@@ -1,5 +1,6 @@
 ---
 title: "Part 4: AI-agent security for analysts"
+description: "Indirect prompt injection and the other ways adversary content can turn your AI tools against you, and how analysts who read such content for a living stay safe."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->
