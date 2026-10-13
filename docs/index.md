@@ -2,7 +2,7 @@
 title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
 ---
 
-> Part of the [Atlas Bear Library](https://atlas-bear.github.io/), where Atlas Bear Labs gathers its public guides, lists and tools
+> Part of the [Library](https://atlas-bear.github.io/), where AB//LABS gathers its public guides, lists and tools
 
 **Intelligence Toolkit Integration:**
 
@@ -11,7 +11,7 @@ title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
 
 ---
 
-Atlas Bear Labs wrote this guide to share what we have learned about using AI tools in open source intelligence (OSINT) work. Our focus is illicit trade. It covers the AI assistants and OSINT platforms we think are worth your time. It explains where your data goes when you use them, and how to keep an investigation safe while you do. We hope it is useful to practitioners, students and teachers. If something is wrong or missing, please tell us through GitHub Issues.
+We at AB//LABS wrote this guide to share what we have learned about using AI tools in open source intelligence (OSINT) work. Our focus is illicit trade. It covers the AI assistants and OSINT platforms we think are worth your time. It explains where your data goes when you use them, and how to keep an investigation safe while you do. We hope it is useful to practitioners, students and teachers. If something is wrong or missing, please tell us through GitHub Issues.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202026-blue)
