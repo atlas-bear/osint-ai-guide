@@ -1,5 +1,6 @@
 ---
 title: "Part 12: For educators: curriculum, lab setup and budgets"
+description: "Curriculum, lab setup and budgets for teaching AI-assisted OSINT, drawn from the Summer School on Illicit Trade."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

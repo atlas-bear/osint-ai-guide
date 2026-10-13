@@ -1,5 +1,6 @@
 ---
 title: "Part 9: OSINT platforms and data sources"
+description: "OSINT platforms and data sources worth an investigator's time, with who owns each, what it costs and where your queries go."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

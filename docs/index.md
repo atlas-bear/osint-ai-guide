@@ -1,5 +1,6 @@
 ---
 title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
+description: "A practical guide to using AI tools in OSINT work on illicit trade: which tools are worth your time, where your data goes and how to keep an investigation safe."
 ---
 
 > Part of the [Library](https://library.ab-labs.io/), where AB//LABS gathers its public guides, lists and tools

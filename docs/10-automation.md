@@ -1,5 +1,6 @@
 ---
 title: "Part 10: Automation and agentic coding for OSINT"
+description: "AI coding agents, scripts and automation for OSINT work, and the rules that apply when a tool reads everything you show it."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

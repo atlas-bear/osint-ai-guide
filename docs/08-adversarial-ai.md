@@ -1,5 +1,6 @@
 ---
 title: "Part 8: Adversarial use of AI by illicit networks"
+description: "What the AI vendors' own threat reports say about criminal and state use of their models since 2025, and what it means for investigators."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

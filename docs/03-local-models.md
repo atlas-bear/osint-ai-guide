@@ -1,5 +1,6 @@
 ---
 title: "Part 3: Local and open-weight models"
+description: "Models you download and run yourself send nothing anywhere. What they can do now, what hardware they need and when they are the right default."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

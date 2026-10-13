@@ -14,6 +14,10 @@ website:
   repo-subdir: docs
   repo-actions: [edit, issue]
   favicon: favicon.svg
+  image: social.png
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   search:
     location: navbar
     type: overlay

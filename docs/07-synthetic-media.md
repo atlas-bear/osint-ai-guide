@@ -1,5 +1,6 @@
 ---
 title: "Part 7: Synthetic media, verification and AI geolocation"
+description: "Synthetic video and imagery, what provenance marks can and cannot tell you, verification methods and how AI geolocation holds up."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

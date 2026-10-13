@@ -1,5 +1,6 @@
 ---
 title: "Part 11: Legal and regulatory changes, 2025 to 2026"
+description: "The legal and regulatory changes since 2025 that an OSINT practitioner should know about, with sources to take to counsel."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->

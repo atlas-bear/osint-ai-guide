@@ -1,5 +1,6 @@
 ---
 title: "Part 6: Analytic tradecraft: hallucination, verification and provenance"
+description: "Hallucination, verification and provenance: how to check what a language model gives you, with the court cases and studies that show why it matters."
 ---
 
 <!-- last-reviewed: 2026-10-12 -->
