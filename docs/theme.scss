@@ -1,0 +1,182 @@
+/*-- scss:defaults --*/
+
+// Material-like palette: blue grey header, indigo accents, soft neutrals.
+$primary: #546e7a;
+$secondary: #3f51b5;
+$link-color: #3f51b5;
+$link-hover-color: #283593;
+$body-color: #37474f;
+$body-bg: #ffffff;
+$headings-color: #263238;
+$navbar-bg: #546e7a;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+$sidebar-bg: #ffffff;
+$sidebar-fg: #546e7a;
+$sidebar-hl: #3f51b5;
+$footer-bg: #eceff1;
+$footer-fg: #546e7a;
+$code-bg: #eceff1;
+$code-color: #37474f;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-root: 16px;
+$toc-color: #3f51b5;
+$toc-active-border: #3f51b5;
+
+/*-- scss:rules --*/
+
+// Cap the page and the navbar at the same width and centre both, the way Material does.
+$atlas-max-width: 1220px;
+
+.navbar > .container-fluid,
+.navbar > .container-xxl {
+  max-width: $atlas-max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-right {
+  max-width: $atlas-max-width;
+}
+
+#quarto-content.page-columns {
+  max-width: $atlas-max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+// Repo block in the navbar, filled in by repo-stats.js: repo name over release, stars and forks.
+.atlas-repo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: $navbar-fg;
+  text-decoration: none;
+  font-size: 0.8rem;
+  line-height: 1.15;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.2rem;
+  transition: background 0.2s;
+}
+
+.atlas-repo:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: $navbar-fg;
+}
+
+.atlas-repo > svg {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.atlas-repo > span {
+  display: block;
+  max-width: 14rem;
+  min-width: 0;
+}
+
+.atlas-repo .atlas-repo__name {
+  display: block;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.atlas-repo .atlas-repo__facts {
+  display: block;
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+.atlas-repo .atlas-repo__facts span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-right: 0.6rem;
+}
+
+.atlas-repo .atlas-repo__facts svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
+
+@media (max-width: 991px) {
+  .atlas-repo > span {
+    max-width: 100%;
+  }
+}
+
+// Content typography closer to Material's rhythm.
+.content {
+  line-height: 1.6;
+}
+
+.content h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  font-weight: 400;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #eceff1;
+  padding-bottom: 0.3rem;
+}
+
+.content ul li {
+  margin-bottom: 1rem;
+}
+
+.content li > br + br {
+  display: none;
+}
+
+.content p > img[src*="shields.io"] {
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+blockquote {
+  border-left: 0.2rem solid #3f51b5;
+  background: #f5f7fa;
+  padding: 0.6rem 1rem;
+  color: #37474f;
+}
+
+.sidebar-navigation .sidebar-item-container .active {
+  font-weight: 600;
+}
+
+// Listing cards on the Browse page.
+.quarto-grid-item .card-title {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.quarto-grid-item {
+  border-color: #eceff1;
+  transition: box-shadow 0.2s;
+}
+
+.quarto-grid-item:hover {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.12);
+}
+
+.quarto-category {
+  background: #eceff1;
+  border-color: #eceff1;
+  color: #37474f;
+}

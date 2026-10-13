@@ -1,0 +1,89 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.md"
+    - "*.qmd"
+    - "!_references.md"
+
+website:
+  title: "AI-Enhanced OSINT"
+  description: "A practical guide for illicit trade intelligence, by Atlas Bear Labs."
+  site-url: https://atlas-bear.github.io/osint-ai-guide/
+  repo-url: https://github.com/atlas-bear/osint-ai-guide
+  repo-subdir: docs
+  repo-actions: [edit, issue]
+  favicon: favicon.svg
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - text: Start here
+        href: index.md
+      - text: The OPSEC rubric
+        href: 01-opsec-rubric.md
+      - text: References
+        href: references.md
+    right:
+      - text: Atlas Bear Library
+        href: https://atlas-bear.github.io/
+  sidebar:
+    style: docked
+    collapse-level: 2
+    contents:
+      - index.md
+      - section: Tools and models
+        contents:
+          - 01-opsec-rubric.md
+          - 02-ai-assistants.md
+          - 03-local-models.md
+          - 04-agent-security.md
+      - section: Practice
+        contents:
+          - 05-opsec.md
+          - 06-tradecraft.md
+          - 07-synthetic-media.md
+          - 08-adversarial-ai.md
+          - 09-platforms-and-data.md
+          - 10-automation.md
+      - section: Context
+        contents:
+          - 11-legal.md
+          - 12-educators.md
+          - 13-workflow.md
+          - conclusion.md
+          - appendix-a.md
+      - references.md
+      - about.md
+  page-footer:
+    left: "Copyright 2025-2026 Atlas Bear. Text licensed CC BY 4.0; code MIT."
+    right:
+      - text: Atlas Bear Library
+        href: https://atlas-bear.github.io/
+      - text: Cite (DOI)
+        href: https://doi.org/10.5281/zenodo.23314064
+      - text: Contact
+        href: mailto:support@atlasbear.co
+
+filters:
+  - github-ids.lua
+  - footnotes.lua
+
+format:
+  html:
+    theme:
+      light: [flatly, theme.scss]
+      dark: [darkly, theme-dark.scss]
+    include-after-body:
+      text: '<script src="repo-stats.js" data-repo="atlas-bear/osint-ai-guide"></script>'
+    grid:
+      sidebar-width: 270px
+      body-width: 820px
+      margin-width: 230px
+      gutter-width: 1.5rem
+    toc: true
+    toc-depth: 3
+    link-external-icon: false
+    link-external-newwindow: false
+    smooth-scroll: true

@@ -11,6 +11,7 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 ### Changed
 
+- The website is now built with Quarto instead of MkDocs Material, in the shared Atlas Bear theme. The pages in `docs/` carry a front-matter title instead of a top heading, the footnote definitions live in `docs/_references.md` and are attached to each page by a small filter at build time, and headings keep their GitHub ids so every existing link still works. The README is unchanged.
 - Contributing instructions now point to `docs/` and the build script.
 
 ### Fixed

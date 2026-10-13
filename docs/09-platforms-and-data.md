@@ -1,10 +1,12 @@
-## Part 9: OSINT platforms and data sources
+---
+title: "Part 9: OSINT platforms and data sources"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
 This Part replaces six separate vendor sections from earlier editions. We have removed tools that no longer exist, corrected owners and names, and dropped prices we could not confirm. [Appendix A](appendix-a.md#appendix-a-renamed-acquired-or-discontinued-2022-to-2026) lists everything that was renamed, bought or shut down. Most platforms here are account-bound services that log your queries, which is a compliance feature for their customers and a consideration for you. Where a platform processes your data with AI we say so; where it does not say what model it uses, we say that too.
 
-### 9.1 Professional OSINT tools
+## 9.1 Professional OSINT tools
 
 | Tool | What it does | Pricing (October 2026) | Data and OPSEC notes |
 | --- | --- | --- | --- |
@@ -25,7 +27,7 @@ This Part replaces six separate vendor sections from earlier editions. We have r
 
 *Verified 2026-10-09 against vendor pages. Prices change. Check before you buy.*
 
-### 9.2 Free structured data for illicit trade investigation
+## 9.2 Free structured data for illicit trade investigation
 
 These are the sources we use first. They are free or have free tiers and they publish their methods. Several can be downloaded and queried locally, which keeps your targets off anyone's logs.
 
@@ -41,7 +43,7 @@ These are the sources we use first. They are free or have free tiers and they pu
 
 *Verified 2026-10-12 for existence and access model.*
 
-### 9.3 Platform and data access is shrinking
+## 9.3 Platform and data access is shrinking
 
 Several collection methods that OSINT courses still teach no longer work or now cost money.
 
@@ -54,7 +56,7 @@ Several collection methods that OSINT courses still teach no longer work or now 
 
 The practical answer is to budget for data and to build on the free structured sources in 9.2. Archive what you collect, because you may not be able to collect it again.
 
-### 9.4 Geospatial intelligence
+## 9.4 Geospatial intelligence
 
 | Tool | What it does | Cost | Notes |
 | --- | --- | --- | --- |
@@ -69,7 +71,7 @@ The practical answer is to budget for data and to build on the free structured s
 
 For AI geolocation of photographs see [Part 7.3](07-synthetic-media.md#73-ai-geolocation). Physical security monitoring platforms (Dataminr, Liferaft) are in 9.6.
 
-### 9.5 Corporate, supply chain, trade, sanctions and blockchain
+## 9.5 Corporate, supply chain, trade, sanctions and blockchain
 
 | Platform | What it does | Access | Notes (October 2026) |
 | --- | --- | --- | --- |
@@ -98,7 +100,7 @@ CipherTrace, listed in earlier editions, was discontinued by Mastercard in March
 
 *Verified 2026-10-09. Enterprise prices are not public; earlier editions' price ranges were estimates and have been removed.*
 
-### 9.6 Enterprise intelligence and investigation platforms
+## 9.6 Enterprise intelligence and investigation platforms
 
 These platforms log every analyst query by design. That is what their customers' compliance teams want, and it is why they rate `Q🔴` in our rubric even when their data protection is excellent. Choose them for institutional investigations; do not use them for anything you need to keep from your own organisation.
 

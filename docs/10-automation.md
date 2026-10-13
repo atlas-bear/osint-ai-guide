@@ -1,10 +1,12 @@
-## Part 10: Automation and agentic coding for OSINT
+---
+title: "Part 10: Automation and agentic coding for OSINT"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
 Most investigators now write small scripts. A scraper for a registry. A screen of a supplier list against OpenSanctions. A notebook that joins trade data to company records. AI coding agents make that work much faster. They also read everything you show them, so the same rules apply as for chat assistants. The rubric for a coding tool follows the model behind it and the account you use.
 
-### 10.1 Agentic coding tools
+## 10.1 Agentic coding tools
 
 | Tool | What it is | Pricing (October 2026) | Where your code goes |
 | --- | --- | --- | --- |
@@ -25,7 +27,7 @@ How we use them safely:
 - Read every line the agent wrote before running it, and run it in a virtual machine or container.
 - Keep secrets in environment variables the agent cannot read.
 
-### 10.2 Workflow automation
+## 10.2 Workflow automation
 
 | Platform | Pricing (October 2026) | AI in the product | Our view |
 | --- | --- | --- | --- |
@@ -38,7 +40,7 @@ How we use them safely:
 
 We use self-hosted alternatives where we can. **Obsidian** for notes: free, including at work, since February 2025, with an optional $50 commercial licence.[^obsidian] **Baserow** (MIT core) or **NocoDB** (moved to a Sustainable Use licence in January 2026) instead of Airtable. **n8n** instead of Zapier.
 
-### 10.3 Private search over investigation corpora
+## 10.3 Private search over investigation corpora
 
 Once a case has a few hundred documents, you want to ask questions across all of them. The usual pattern is retrieval-augmented generation (RAG). You split documents into chunks and turn each chunk into an embedding, a numeric fingerprint of its meaning. You store the embeddings in a vector database. When you ask a question, the system retrieves the closest chunks and hands them to a model along with your question. The model never needs the whole corpus, and if the model is local nothing leaves your machine.
 
@@ -56,7 +58,7 @@ A minimal local setup needs four pieces. Docling converts the files. A local emb
 
 *Model and product names verified 2026-10-12 for existence; test any of them on your own documents before you trust them.*
 
-### 10.4 Safe development checklist
+## 10.4 Safe development checklist
 
 1. Develop in a virtual machine or container, with a local Git repository.
 2. Use AI coding tools on an account whose terms you have read. Prefer a local model or an enterprise account for anything that touches case data.

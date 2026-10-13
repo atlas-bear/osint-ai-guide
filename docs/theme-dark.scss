@@ -1,0 +1,173 @@
+/*-- scss:defaults --*/
+
+// Dark counterpart of theme.scss: the same blue grey and indigo on a slate background.
+$primary: #90a4ae;
+$secondary: #7986cb;
+$link-color: #9fa8da;
+$link-hover-color: #c5cae9;
+$body-color: #cfd8dc;
+$body-bg: #1e272c;
+$headings-color: #eceff1;
+$navbar-bg: #37474f;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+$sidebar-bg: #1e272c;
+$sidebar-fg: #b0bec5;
+$sidebar-hl: #9fa8da;
+$footer-bg: #263238;
+$footer-fg: #b0bec5;
+$code-bg: #263238;
+$code-color: #cfd8dc;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-root: 16px;
+$toc-color: #9fa8da;
+$toc-active-border: #9fa8da;
+
+/*-- scss:rules --*/
+
+$atlas-max-width: 1220px;
+
+.navbar > .container-fluid,
+.navbar > .container-xxl {
+  max-width: $atlas-max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-right {
+  max-width: $atlas-max-width;
+}
+
+#quarto-content.page-columns {
+  max-width: $atlas-max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.atlas-repo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: $navbar-fg;
+  text-decoration: none;
+  font-size: 0.8rem;
+  line-height: 1.15;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.2rem;
+  transition: background 0.2s;
+}
+
+.atlas-repo:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: $navbar-fg;
+}
+
+.atlas-repo > svg {
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.atlas-repo > span {
+  display: block;
+  max-width: 14rem;
+  min-width: 0;
+}
+
+.atlas-repo .atlas-repo__name {
+  display: block;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.atlas-repo .atlas-repo__facts {
+  display: block;
+  opacity: 0.85;
+  white-space: nowrap;
+}
+
+.atlas-repo .atlas-repo__facts span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-right: 0.6rem;
+}
+
+.atlas-repo .atlas-repo__facts svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
+
+@media (max-width: 991px) {
+  .atlas-repo > span {
+    max-width: 100%;
+  }
+}
+
+.content {
+  line-height: 1.6;
+}
+
+.content h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  font-weight: 400;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #37474f;
+  padding-bottom: 0.3rem;
+}
+
+.content ul li {
+  margin-bottom: 1rem;
+}
+
+.content li > br + br {
+  display: none;
+}
+
+.content p > img[src*="shields.io"] {
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
+
+blockquote {
+  border-left: 0.2rem solid #7986cb;
+  background: #263238;
+  padding: 0.6rem 1rem;
+  color: #cfd8dc;
+}
+
+.sidebar-navigation .sidebar-item-container .active {
+  font-weight: 600;
+}
+
+.quarto-grid-item .card-title {
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.quarto-grid-item {
+  border-color: #37474f;
+}
+
+.quarto-category {
+  background: #37474f;
+  border-color: #37474f;
+  color: #cfd8dc;
+}

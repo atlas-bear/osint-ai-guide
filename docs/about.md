@@ -1,3 +1,8 @@
+---
+title: "About, licence and contact"
+readme-heading: false
+---
+
 ## Contributing
 
 We welcome corrections and additions.
@@ -6,7 +11,7 @@ We welcome corrections and additions.
 
 1. Fork the repository and create a branch.
 2. Edit the files in the `docs/` folder, not README.md. README.md is generated from them. For a new tool, include what it does, who owns it, what it costs, where the data goes, and a source with a date. Footnotes are defined once, in `docs/references.md`.
-3. Run `python scripts/build_readme.py` to regenerate README.md, and `mkdocs build --strict` if you have MkDocs installed. The pull request checks run both.
+3. Run `python scripts/build_readme.py` to regenerate README.md and the references page, and `quarto render docs` if you have Quarto installed. The pull request checks run both.
 4. Open a pull request with a short description.
 
 ### Rules we hold ourselves to

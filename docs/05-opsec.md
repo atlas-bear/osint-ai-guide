@@ -1,14 +1,16 @@
-## Part 5: OPSEC for AI-assisted OSINT
+---
+title: "Part 5: OPSEC for AI-assisted OSINT"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
-### 5.1 Principles and the Berkeley Protocol
+## 5.1 Principles and the Berkeley Protocol
 
 Operational security in OSINT is a habit before it is a toolset. You gather information from public sources without revealing who you are, who you work for, what you are looking for, or how. AI tools add a new channel for all four to leak.
 
 The Berkeley Protocol on Digital Open Source Investigations remains the reference standard. It was published by the UN Human Rights Office and the Human Rights Center at UC Berkeley. Its security chapter asks four things of investigators. Manage attribution so that nothing identifies you, your organisation, your sources or your intent. Expect to be observed and act consistently with your online persona. Work from secure environments. Keep personal and professional activity apart.[^berkeley] It was written in 2020 and has not been revised for the AI era, so the rest of this Part extends it.
 
-### 5.2 Technical safeguards, identity and data handling
+## 5.2 Technical safeguards, identity and data handling
 
 - **Network.** Use a VPN and, where it fits your threat model, Tor. Understand what each hides and from whom before you combine them.
 - **Isolation.** Research in a virtual machine or a dedicated device. Keep a separate browser profile for each persona.
@@ -17,7 +19,7 @@ The Berkeley Protocol on Digital Open Source Investigations remains the referenc
 - **Storage.** Keep findings local and encrypted. Decide a retention period and delete on schedule. Limit who can read the case.
 - **Metadata.** Strip location and device data from anything you upload anywhere, including to an AI assistant.
 
-### 5.3 Where your prompts go
+## 5.3 Where your prompts go
 
 Every prompt you send to a cloud assistant is stored somewhere, for some time, under some terms. Four things can happen to it.
 
@@ -33,7 +35,7 @@ There is no professional privilege for any of this. As OpenAI's chief executive 
 
 Government purchase of commercially available data, including data brokers' records, remains a live concern in the United States. The Fourth Amendment Is Not For Sale Act passed the House in April 2024 and has not become law.[^fisa-702]
 
-### 5.4 Recommendations
+## 5.4 Recommendations
 
 1. Put anything that identifies a target, a source or a case on a local model or an enterprise account. Everything else is optional; this is not.
 2. On consumer accounts, turn model training off, turn memory off, and use temporary or incognito chats for case work.

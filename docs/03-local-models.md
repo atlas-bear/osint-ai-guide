@@ -1,10 +1,12 @@
-## Part 3: Local and open-weight models
+---
+title: "Part 3: Local and open-weight models"
+---
 
 <!-- last-reviewed: 2026-10-12 -->
 
 A model whose weights you download and run on your own machine sends nothing anywhere. That makes local models the right default for anything that names a target, a source or a case. The quality gap with the big cloud models has narrowed a great deal since 2025. A 20 to 30 billion parameter model on a laptop with 32 GB of memory is now good enough for most OSINT tasks. That includes summarising documents, extracting entities, translating and drafting. For long multi-step research with web access, cloud models are still better. So we use local models for the sensitive parts and cloud models for the public parts.
 
-### 3.1 Open-weight models in 2026
+## 3.1 Open-weight models in 2026
 
 Most of the strongest open-weight models now come from Chinese labs, with OpenAI, Google, Mistral, IBM and NVIDIA also publishing weights. Meta started the open-weights movement with Llama. It moved to closed models in 2025 and 2026 and released only one open model, Muse Glimmer 30B, in August 2026.[^meta-avocado][^meta-glimmer] Llama 4 remains available, with a licence clause for companies above 700 million monthly users and an exclusion of EU users from its multimodal models.[^llama4-eu]
 
@@ -24,7 +26,7 @@ Most of the strongest open-weight models now come from Chinese labs, with OpenAI
 
 **Weights local, app or API abroad.** The same company can be green and red at once. Running DeepSeek or Qwen weights on your own hardware keeps your data on your hardware. Using the DeepSeek app or API sends it to servers in China under Chinese law. The decision matrix in the BLUF reflects that split.
 
-### 3.2 Hardware tiers and model picks
+## 3.2 Hardware tiers and model picks
 
 | Your machine | Memory | What runs well | Our picks |
 | --- | --- | --- | --- |
@@ -34,7 +36,7 @@ Most of the strongest open-weight models now come from Chinese labs, with OpenAI
 
 Apple Silicon machines with unified memory are the easiest way to run the 64 to 128 GB tier without building a GPU server. Quantised GGUF files are the common format. Hugging Face listed more than 210,000 GGUF model repositories on 9 October 2026.[^hf-gguf]
 
-### 3.3 Runners
+## 3.3 Runners
 
 | Tool | What it is | Licence and cost | Watch out for |
 | --- | --- | --- | --- |

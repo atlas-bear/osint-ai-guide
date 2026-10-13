@@ -2,3 +2,7 @@ __pycache__/
 site/
 .venv/
 venv/
+_site/
+.quarto/
+docs/.quarto/
+docs/_site/
