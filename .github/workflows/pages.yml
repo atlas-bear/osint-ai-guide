@@ -11,6 +11,9 @@ on:
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
+env:
+  NO_MKDOCS_2_WARNING: "1"
+
 permissions:
   contents: read
   pages: write
