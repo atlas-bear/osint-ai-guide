@@ -129,7 +129,7 @@ These guidelines are adapted from best practices in the open source and intellig
 
 ## Related Resources
 
-- **Atlas Bear Academy**: [professional development programmes from Atlas Bear](https://www.atlasbear.academy)
+- **Atlas|Bear Academy**: [professional development programmes from Atlas|Bear](https://www.atlasbear.academy)
 - **AB//LABS website**: [ab-labs.io](https://ab-labs.io)
 - **GitHub Code of Conduct**: [GitHub's community standards](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 

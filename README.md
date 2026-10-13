@@ -931,7 +931,7 @@ The full legal text is in the [LICENSE](LICENSE) file. Scripts, configuration an
 ### Copyright notice
 
 ```text
-Copyright (c) 2025-2026 AB//LABS (formerly Atlas Bear Labs)
+Copyright (c) 2025-2026 AB//LABS (formerly Atlas|Bear Labs)
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/ or
@@ -1008,9 +1008,9 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 
 The MARA maritime intelligence platform is in private development and is not yet public.
 
-Everything above is gathered at the [Library](https://atlas-bear.github.io/). AB//LABS began as Atlas Bear Labs, the technical side of [Atlas Bear](https://atlasbear.co), and is now a company of its own. The two still work together, and our repositories keep the `atlas-bear` name on GitHub for now.
+Everything above is gathered at the [Library](https://atlas-bear.github.io/). AB//LABS began as Atlas|Bear Labs, the technical side of [Atlas|Bear](https://atlasbear.co), and is now a company of its own. The two still work together, and our repositories keep the `atlas-bear` name on GitHub for now.
 
-**Learn more:** [ab-labs.io](https://ab-labs.io), [Atlas Bear](https://atlasbear.co) and its [Academy](https://www.atlasbear.academy) • **Contact:** [support@ab-labs.io](mailto:support@ab-labs.io)
+**Learn more:** [ab-labs.io](https://ab-labs.io), [Atlas|Bear](https://atlasbear.co) and its [Academy](https://www.atlasbear.academy) • **Contact:** [support@ab-labs.io](mailto:support@ab-labs.io)
 
 [↑ Back to top](#ai-enhanced-osint-a-practical-guide-for-illicit-trade-intelligence)
 

@@ -57,7 +57,7 @@ website:
       - references.md
       - about.md
   page-footer:
-    left: "Copyright 2025-2026 AB//LABS (formerly Atlas Bear Labs). Text licensed CC BY 4.0; code MIT."
+    left: "Copyright 2025-2026 AB//LABS (formerly Atlas|Bear Labs). Text licensed CC BY 4.0; code MIT."
     right:
       - text: Library
         href: https://atlas-bear.github.io/

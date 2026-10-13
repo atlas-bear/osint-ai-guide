@@ -11,7 +11,7 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 ### Changed
 
-- Ownership wording, contacts and names now reflect AB//LABS, which began as Atlas Bear Labs and spun off from Atlas Bear; the connection is explained in About. Copyright lines read AB//LABS (formerly Atlas Bear Labs); contact is `support@ab-labs.io`.
+- Ownership wording, contacts and names now reflect AB//LABS, which began as Atlas|Bear Labs and spun off from Atlas|Bear; the connection is explained in About. Copyright lines read AB//LABS (formerly Atlas|Bear Labs); contact is `support@ab-labs.io`.
 - The website is now built with Quarto instead of MkDocs Material, in the shared theme. The pages in `docs/` carry a front-matter title instead of a top heading, the footnote definitions live in `docs/_references.md` and are attached to each page by a small filter at build time, and headings keep their GitHub ids so every existing link still works. The README is unchanged.
 - Contributing instructions now point to `docs/` and the build script.
 
