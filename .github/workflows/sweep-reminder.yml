@@ -1,0 +1,40 @@
+name: Sweep reminder
+
+on:
+  schedule:
+    - cron: "0 7 1 3 *"
+    - cron: "0 7 1 9 *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open the sweep issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          year=$(date -u +%Y)
+          season=$([ "$(date -u +%m)" -lt 7 ] && echo Spring || echo Autumn)
+          title="$season $year sweep of the guide"
+          if [ "$(gh issue list --repo "${{ github.repository }}" --label sweep --state open --json number --jq 'length')" != "0" ]; then
+            echo "an open sweep issue already exists"; exit 0
+          fi
+          cat > /tmp/sweep.md <<'BODY'
+          Time for the twice-yearly review of the guide. One branch, one PR; every table keeps its verification caption and every number keeps its footnote.
+
+          - [ ] Vendors: plans, prices, training defaults, retention windows and model names in Part 2, with the vendor pages as the source and the "as of" month updated.
+          - [ ] Legal: anything that changed in Part 11 (EU AI Act dates, enforcement actions, US state laws, litigation holds and discovery orders).
+          - [ ] Security: new agent, MCP or browser incidents for Part 4; new threat reports for Part 8.
+          - [ ] Platforms and data: renames, acquisitions and shutdowns for Part 9 and Appendix A; open-weight model picks and hardware tiers in Part 3.
+          - [ ] References: every footnote still resolves to the claim it supports; replace moved or dead sources and update accessed dates.
+          - [ ] Re-read the BLUF and the Conclusion against the body; retire anything the body no longer supports.
+          - [ ] Run `python scripts/build_readme.py`, the lint and the link check; confirm the site renders.
+          - [ ] Check for a newer stable Quarto and a newer release of `atlas-bear/quarto-theme`; bump the workflow pin and run `quarto update atlas-bear/quarto-theme` if so.
+          - [ ] CHANGELOG entry, version and date in CITATION.cff and the README citation block, merge, release (Zenodo mints the DOI).
+          BODY
+          gh issue create --repo "${{ github.repository }}" --label sweep --title "$title" --body-file /tmp/sweep.md
