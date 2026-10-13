@@ -8,7 +8,7 @@ project:
 
 website:
   title: "AI-Enhanced OSINT"
-  description: "A practical guide for illicit trade intelligence, by Atlas Bear Labs."
+  description: "A practical guide for illicit trade intelligence, by AB//LABS."
   site-url: https://atlas-bear.github.io/osint-ai-guide/
   repo-url: https://github.com/atlas-bear/osint-ai-guide
   repo-subdir: docs
@@ -26,7 +26,7 @@ website:
       - text: References
         href: references.md
     right:
-      - text: Atlas Bear Library
+      - text: Library
         href: https://atlas-bear.github.io/
   sidebar:
     style: docked
@@ -57,14 +57,14 @@ website:
       - references.md
       - about.md
   page-footer:
-    left: "Copyright 2025-2026 Atlas Bear. Text licensed CC BY 4.0; code MIT."
+    left: "Copyright 2025-2026 AB//LABS (formerly Atlas Bear Labs). Text licensed CC BY 4.0; code MIT."
     right:
-      - text: Atlas Bear Library
+      - text: Library
         href: https://atlas-bear.github.io/
       - text: Cite (DOI)
         href: https://doi.org/10.5281/zenodo.23314064
       - text: Contact
-        href: mailto:support@atlasbear.co
+        href: mailto:support@ab-labs.io
 
 filters:
   - github-ids.lua

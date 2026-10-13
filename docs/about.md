@@ -35,14 +35,14 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-You are free to share and adapt this work for any purpose, including commercially, as long as you credit Atlas Bear, link to the license, and say whether you changed anything. You may not suggest that Atlas Bear endorses you or your use, and you may not add legal or technical restrictions that stop others doing what the license allows.
+You are free to share and adapt this work for any purpose, including commercially, as long as you credit AB//LABS, link to the license, and say whether you changed anything. You may not suggest that AB//LABS endorses you or your use, and you may not add legal or technical restrictions that stop others doing what the license allows.
 
 The full legal text is in the [LICENSE](https://github.com/atlas-bear/osint-ai-guide/blob/main/LICENSE) file. Scripts, configuration and workflow files in this repository are software rather than text, and are licensed separately under the MIT License; see [LICENSE-CODE](https://github.com/atlas-bear/osint-ai-guide/blob/main/LICENSE-CODE).
 
 ### Copyright notice
 
 ```text
-Copyright (c) 2025-2026 Atlas Bear
+Copyright (c) 2025-2026 AB//LABS (formerly Atlas Bear Labs)
 
 This work is licensed under the Creative Commons Attribution 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/ or
@@ -62,15 +62,15 @@ The repository includes a [CITATION.cff](https://github.com/atlas-bear/osint-ai-
 
 #### Academic papers
 
-> Atlas Bear Labs and Clontz, R. (2026). AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence (Version 3.0.0). Zenodo. <https://doi.org/10.5281/zenodo.23314068>. Licensed under CC BY 4.0.
+> AB//LABS and Clontz, R. (2026). AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence (Version 3.0.0). Zenodo. <https://doi.org/10.5281/zenodo.23314068>. Licensed under CC BY 4.0.
 
 #### Presentations
 
-> Source: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence" by Atlas Bear (CC BY 4.0)
+> Source: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence" by AB//LABS (CC BY 4.0)
 
 #### Adaptations
 
-> Based on "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence" by Atlas Bear, adapted with modifications. Original work licensed under CC BY 4.0.
+> Based on "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence" by AB//LABS, adapted with modifications. Original work licensed under CC BY 4.0.
 
 ## Disclaimer
 
@@ -80,8 +80,8 @@ This guide is for education. You are responsible for complying with the laws tha
 
 - **Corrections and suggestions:** open a GitHub Issue or a pull request.
 - **Questions:** use GitHub Discussions.
-- **Security concerns:** use GitHub's private vulnerability reporting on this repository (Security tab), or email [support@atlasbear.co](mailto:support@atlasbear.co). See [SECURITY.md](https://github.com/atlas-bear/osint-ai-guide/blob/main/SECURITY.md).
-- **Academic partnerships:** email [support@atlasbear.co](mailto:support@atlasbear.co).
+- **Security concerns:** use GitHub's private vulnerability reporting on this repository (Security tab), or email [support@ab-labs.io](mailto:support@ab-labs.io). See [SECURITY.md](https://github.com/atlas-bear/osint-ai-guide/blob/main/SECURITY.md).
+- **Academic partnerships:** email [support@ab-labs.io](mailto:support@ab-labs.io).
 
 ## Acknowledgments
 
@@ -93,7 +93,7 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 **Version:** 3.0 (see [CHANGELOG](https://github.com/atlas-bear/osint-ai-guide/blob/main/CHANGELOG.md))
 **Contributors:** [rhinonix](https://github.com/rhinonix), [jxc112](https://github.com/jxc112)
 
-## Atlas Bear Ecosystem
+## Our repositories
 
 | Repository | Purpose | Status |
 | --- | --- | --- |
@@ -103,6 +103,6 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 
 The MARA maritime intelligence platform is in private development and is not yet public.
 
-Everything above is gathered at the [Atlas Bear Library](https://atlas-bear.github.io/).
+Everything above is gathered at the [Library](https://atlas-bear.github.io/). AB//LABS began as Atlas Bear Labs, the technical side of [Atlas Bear](https://atlasbear.co), and is now a company of its own. The two still work together, and our repositories keep the `atlas-bear` name on GitHub for now.
 
-**Learn more:** [Atlas Bear Academy](https://www.atlasbear.academy) • **Contact:** [support@atlasbear.co](mailto:support@atlasbear.co)
+**Learn more:** [ab-labs.io](https://ab-labs.io), [Atlas Bear](https://atlasbear.co) and its [Academy](https://www.atlasbear.academy) • **Contact:** [support@ab-labs.io](mailto:support@ab-labs.io)

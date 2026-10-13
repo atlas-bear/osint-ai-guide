@@ -4,8 +4,8 @@ message: "If you use this guide, please cite it using the metadata below."
 title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
 abstract: "A practical guide to using AI tools in open source intelligence (OSINT) work on illicit trade: which AI assistants and OSINT platforms are worth an investigator's time, where their data goes, how to keep an investigation safe, and how to verify what the tools produce."
 authors:
-  - name: "Atlas Bear Labs"
-    website: "https://atlasbear.co"
+  - name: "AB//LABS"
+    website: "https://ab-labs.io"
   - family-names: Clontz
     given-names: Ryan
     alias: rhinonix
@@ -35,7 +35,7 @@ preferred-citation:
   authors:
     - family-names: Clontz
       given-names: Ryan
-      affiliation: "Atlas Bear Labs"
+      affiliation: "AB//LABS"
   year: 2026
   month: 10
   version: "3.0"

@@ -1,8 +1,8 @@
 # Community Guidelines
 
-## Welcome to the Atlas Bear Community
+## Welcome to the AB//LABS community
 
-Atlas Bear Labs is committed to fostering an inclusive, professional, and collaborative environment for intelligence professionals, researchers, and practitioners working in maritime security, supply chain intelligence, and related fields.
+AB//LABS is committed to fostering an inclusive, professional, and collaborative environment for intelligence professionals, researchers, and practitioners working in maritime security, supply chain intelligence, and related fields.
 
 ## Our Values
 
@@ -41,7 +41,7 @@ Atlas Bear Labs is committed to fostering an inclusive, professional, and collab
 
 - Keep discussions relevant to the repository's focus area
 - Use appropriate discussion categories for your posts
-- Cross-reference related Atlas Bear resources when relevant
+- Cross-reference related AB//LABS resources when relevant
 - Help maintain the professional focus of each repository
 
 ## Discussion Guidelines
@@ -116,7 +116,7 @@ If you encounter behavior that violates these guidelines:
 
 ## Contact Information
 
-- **General Support**: [support@atlasbear.co](mailto:support@atlasbear.co)
+- **General Support**: [support@ab-labs.io](mailto:support@ab-labs.io)
 - **Community Issues**: Open an issue in the relevant repository
 - **Private Concerns**: Email maintainers directly through GitHub
 
@@ -129,10 +129,10 @@ These guidelines are adapted from best practices in the open source and intellig
 
 ## Related Resources
 
-- **Atlas Bear Academy**: [Professional development programs](https://www.atlasbear.academy)
-- **Atlas Bear Website**: [Learn more about our mission](https://atlasbear.co)
+- **Atlas Bear Academy**: [professional development programmes from Atlas Bear](https://www.atlasbear.academy)
+- **AB//LABS website**: [ab-labs.io](https://ab-labs.io)
 - **GitHub Code of Conduct**: [GitHub's community standards](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines)
 
 ---
 
-_Thank you for being part of the Atlas Bear community and helping us build valuable resources for intelligence professionals worldwide._
+*Thank you for being part of the AB//LABS community and helping us build valuable resources for intelligence professionals worldwide._
