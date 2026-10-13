@@ -2,11 +2,11 @@
 title: "AI-Enhanced OSINT: A Practical Guide for Illicit Trade Intelligence"
 ---
 
-> Part of the [Library](https://atlas-bear.github.io/), where AB//LABS gathers its public guides, lists and tools
+> Part of the [Library](https://library.ab-labs.io/), where AB//LABS gathers its public guides, lists and tools
 
 **Intelligence Toolkit Integration:**
 
-- [OSINT Tools](https://github.com/atlas-bear/osint-tools) - Maritime and supply chain OSINT tools and data sources, also as a [website](https://atlas-bear.github.io/osint-tools/)
+- [OSINT Tools](https://github.com/atlas-bear/osint-tools) - Maritime and supply chain OSINT tools and data sources, also as a [website](https://library.ab-labs.io/osint-tools/)
 - [Recommended Reading](https://github.com/atlas-bear/recommended-reading) - Essential reading on illicit trade and intelligence analysis
 
 ---
@@ -20,7 +20,7 @@ We at AB//LABS wrote this guide to share what we have learned about using AI too
 ![OSINT](https://img.shields.io/badge/OSINT-Intelligence%20Research-red)
 ![AI Models](https://img.shields.io/badge/AI-Models%20%26%20Platforms-green)
 
-**Read it as a website.** This guide is also published at <https://atlas-bear.github.io/osint-ai-guide/>, with search and one page per Part. The README and the website are built from the same files.
+**Read it as a website.** This guide is also published at <https://library.ab-labs.io/osint-ai-guide/>, with search and one page per Part. The README and the website are built from the same files.
 
 **How this guide is maintained.** We review the whole guide twice a year, in spring before the Summer School on Illicit Trade and again in autumn. Every table carries the date we last checked it against vendor pages. Prices and data policies change quickly, so check the vendor page before you buy or before you paste anything sensitive. Corrections are welcome through Issues or a pull request. Each review is published as a GitHub Release with a version number, and the [CHANGELOG](https://github.com/atlas-bear/osint-ai-guide/blob/main/CHANGELOG.md) lists what changed in each version.
 

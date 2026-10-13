@@ -97,12 +97,12 @@ Very special thanks to the lecturers, students and alumni of [The Summer School 
 
 | Repository | Purpose | Status |
 | --- | --- | --- |
-| [osint-tools](https://github.com/atlas-bear/osint-tools) | Maritime and supply chain OSINT tools, also at [atlas-bear.github.io/osint-tools](https://atlas-bear.github.io/osint-tools/) | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-tools) |
+| [osint-tools](https://github.com/atlas-bear/osint-tools) | Maritime and supply chain OSINT tools, also at [library.ab-labs.io/osint-tools](https://library.ab-labs.io/osint-tools/) | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-tools) |
 | [recommended-reading](https://github.com/atlas-bear/recommended-reading) | Curated intelligence reading list | ![Status](https://img.shields.io/github/last-commit/atlas-bear/recommended-reading) |
 | [osint-ai-guide](https://github.com/atlas-bear/osint-ai-guide) | AI applications in OSINT (this guide) | ![Status](https://img.shields.io/github/last-commit/atlas-bear/osint-ai-guide) |
 
 The MARA maritime intelligence platform is in private development and is not yet public.
 
-Everything above is gathered at the [Library](https://atlas-bear.github.io/). AB//LABS began as Atlas|Bear Labs, the technical side of [Atlas|Bear](https://atlasbear.co), and is now a company of its own. The two still work together, and our repositories keep the `atlas-bear` name on GitHub for now.
+Everything above is gathered at the [Library](https://library.ab-labs.io/). AB//LABS began as Atlas|Bear Labs, the technical side of [Atlas|Bear](https://atlasbear.co), and is now a company of its own. The two still work together, and our repositories keep the `atlas-bear` name on GitHub for now.
 
 **Learn more:** [ab-labs.io](https://ab-labs.io), [Atlas|Bear](https://atlasbear.co) and its [Academy](https://www.atlasbear.academy) • **Contact:** [support@ab-labs.io](mailto:support@ab-labs.io)
