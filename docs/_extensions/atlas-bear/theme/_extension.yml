@@ -1,7 +1,7 @@
 title: AB//LABS Quarto theme
 description: A shared look for our Quarto websites, as a format extension.
 author: AB//LABS
-version: 1.0.0
+version: 1.1.0
 quarto-required: ">=1.10.0"
 contributes:
   formats:
@@ -11,6 +11,8 @@ contributes:
         dark: [darkly, theme-dark.scss]
       format-resources:
         - repo-stats.js
+        - library-search.js
+        - minisearch.min.js
       grid:
         sidebar-width: 270px
         body-width: 820px
