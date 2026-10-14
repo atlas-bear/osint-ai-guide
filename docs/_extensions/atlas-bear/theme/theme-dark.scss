@@ -51,6 +51,17 @@ $atlas-max-width: 1220px;
 
 .navbar-brand {
   font-weight: 600;
+  white-space: nowrap;
+}
+
+.navbar .navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+.navbar .quarto-navbar-tools {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .atlas-repo {
@@ -59,9 +70,10 @@ $atlas-max-width: 1220px;
   gap: 0.6rem;
   color: $navbar-fg;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   line-height: 1.15;
-  padding: 0.25rem 0.6rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
   border-radius: 0.2rem;
   transition: background 0.2s;
 }
@@ -72,15 +84,15 @@ $atlas-max-width: 1220px;
 }
 
 .atlas-repo > svg {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   fill: currentColor;
   flex-shrink: 0;
 }
 
 .atlas-repo > span {
   display: block;
-  max-width: 14rem;
+  max-width: 9rem;
   min-width: 0;
 }
 
@@ -101,8 +113,8 @@ $atlas-max-width: 1220px;
 .atlas-repo .atlas-repo__facts span {
   display: inline-flex;
   align-items: center;
-  gap: 0.2rem;
-  margin-right: 0.6rem;
+  gap: 0.15rem;
+  margin-right: 0.45rem;
 }
 
 .atlas-repo .atlas-repo__facts svg {
@@ -112,8 +124,8 @@ $atlas-max-width: 1220px;
 }
 
 @media (max-width: 991px) {
-  .atlas-repo > span {
-    max-width: 100%;
+  .quarto-navbar-tools .atlas-repo {
+    display: none;
   }
 }
 
@@ -193,16 +205,15 @@ blockquote {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  width: 11rem;
+  width: 12.5rem;
   padding: 0 0.6rem;
   border-radius: 0.25rem;
   background: rgba(255, 255, 255, 0.14);
   color: $navbar-fg;
-  transition: background 0.2s, width 0.2s;
+  transition: background 0.2s;
 }
 
 .lib-search__form:focus-within {
-  width: 18rem;
   background: #1e272c;
   color: #b0bec5;
 }
@@ -338,11 +349,11 @@ blockquote {
 
 @media (max-width: 1199px) {
   .lib-search__form {
-    width: 8.5rem;
+    width: 10rem;
   }
 
-  .lib-search__form:focus-within {
-    width: 14rem;
+  .lib-search__kbd {
+    display: none;
   }
 }
 

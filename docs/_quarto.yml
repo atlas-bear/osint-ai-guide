@@ -21,8 +21,6 @@ website:
   search: false
   navbar:
     left:
-      - text: Start here
-        href: index.md
       - text: The OPSEC rubric
         href: 01-opsec-rubric.md
       - text: References
@@ -34,7 +32,8 @@ website:
     style: docked
     collapse-level: 2
     contents:
-      - index.md
+      - text: Start here
+        href: index.md
       - section: Tools and models
         contents:
           - 01-opsec-rubric.md
