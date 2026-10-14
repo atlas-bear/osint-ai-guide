@@ -8,3 +8,5 @@ docs/.quarto/
 docs/_site/
 # Quarto copies the theme extension's repo-stats.js here while rendering; the source lives in docs/_extensions.
 docs/repo-stats.js
+docs/library-search.js
+docs/minisearch.min.js
