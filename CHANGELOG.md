@@ -11,6 +11,7 @@ All notable changes to this guide are listed here. The format follows [Keep a Ch
 
 ### Changed
 
+- The search box in the navigation bar now searches the whole Library: this site, the guide, the tools list, the reading list and the Library page, with results grouped by site and this site first. It uses the shared theme's search (v1.1.0) and an index the Library page publishes.
 - Link previews: every page now carries Open Graph and Twitter card metadata with a description and a preview image in the AB//LABS style, and the favicon is the AB//LABS mark.
 - The website moved to <https://library.ab-labs.io/osint-ai-guide/>. The old atlas-bear.github.io address redirects there, so existing links keep working.
 - Ownership wording, contacts and names now reflect AB//LABS, which began as Atlas|Bear Labs and spun off from Atlas|Bear; the connection is explained in About. Copyright lines read AB//LABS (formerly Atlas|Bear Labs); contact is `support@ab-labs.io`.
